@@ -13,3 +13,15 @@ header{
     width: 100%;
     height: 6rem;
 }
+
+main{
+    background-color: var(--body);
+    width: 100%;
+    height: 50rem;
+}
+
+footer{
+    background-color: var(--footer);
+    width: 100%;
+    height: 10rem;
+}
