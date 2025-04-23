@@ -1,51 +1,113 @@
+* {
+  border: none;
+  padding: none;
+}
 html {
-    --header: #414141;
-    --body: #5D5D5D;
-    --footer:#7E7E7E;
+  --header: #414141;
+  --body: #5d5d5d;
+  --footer: #7e7e7e;
 }
 
 body {
-    margin: 0;
-  }
+  margin: 0;
+}
 
-header{
-    background-color: var(--header);
-    width: 100%;
-    height: 6rem;
+header {
+  background-color: var(--header);
+  width: 100%;
+  height: 6rem;
 }
 
 /* header navgation bar  form Sean*/
 
-li{
-    list-style: none;
-    width: 129px;
-    min-width: 127px;
-    text-align: center;
-    font-size: 24px;
+li {
+  list-style: none;
+  width: 129px;
+  min-width: 127px;
+  text-align: center;
+  font-size: 24px;
 }
 
-ul{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    align-items: center;
+ul {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-nav{
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 275px;
+  margin-top: 4px;
+  margin-bottom: auto;
+  margin-left: 6px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Mobile menu */
+
+.burgermenu {
+  display: none;
+}
+
+
+/* If the screen is zoomed out change the menu style */
+@media screen and (max-width: 700px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    background-color: white;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 100;
+  }
+
+  .nav-links.show {
     display: flex;
-    flex-direction: row;
+  }
+
+  .burgermenu {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-}
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 200;
+  }
 
-.logo{
-    max-width:275px;
-    margin-top: 4px;
-    margin-bottom: auto;
-    margin-left: 6px;
-}
+  .burgermenu span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
 
-header a{
-    color:white;
-    text-decoration: none;
+  /* Turns into a close button */
+
+  .burgermenu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .burgermenu.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .burgermenu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, 5px);
+  }
 }
