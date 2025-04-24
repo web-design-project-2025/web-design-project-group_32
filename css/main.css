@@ -96,10 +96,6 @@ footer a img:hover {
   transition: transform 0.3s ease-in-out;
 }
 
-.image-mobile img {
-  display: none;
-}
-
 #footer-copy-right-division {
   background-color: var(--footer);
   border-top: 2px solid #fff;
@@ -147,18 +143,5 @@ footer a img:hover {
     flex-direction: column;
     padding: 2rem;
   }
-  .follow-us p {
-    padding-left: 28px;
-  }
-  .follow-us-sub-division img {
-    display: none;
-  }
-  .follow-us-sub-division {
-    gap: 0px;
-  }
-  .image-mobile img {
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
+ 
 }
