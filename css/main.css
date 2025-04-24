@@ -134,7 +134,7 @@ footer a img:hover {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 760px) {
   #footer-container {
     gap: 4rem;
   }
