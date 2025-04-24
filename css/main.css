@@ -22,8 +22,8 @@ header {
 
 nav li {
   list-style: none;
-  width: 129px;
-  min-width: 127px;
+  width: 8rem;
+  min-width: 7rem;
   text-align: center;
   font-size: 24px;
 }
@@ -40,14 +40,14 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 20px;
+  padding-right: 1.5rem;
 }
 
 .logo {
-  max-width: 275px;
-  margin-top: 4px;
+  max-width: 11rem;
+  margin-top: 0.4rem;
   margin-bottom: auto;
-  margin-left: 6px;
+  margin-left: 0.5rem;
 }
 
 header a {
@@ -67,12 +67,12 @@ header a {
   .nav-links {
     display: none;
     position: absolute;
-    width: 150px;
-    top: 65px;
-    right: 20px;
+    width: 6.25rem;
+    top: 4rem;
+    right: 1rem;
     background-color: black;
     flex-direction: column;
-    padding: 20px;
+    padding: 1.5rem;
     border-radius: 0 0 8px 8px;
     z-index: 100;
     opacity: 0;
@@ -91,12 +91,12 @@ header a {
 
   /* The menu button on mobile */
   .burgermenu {
-    margin-top: 35px;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 60px;
-    height: 30px;
+    width: 3rem;
+    height: 2rem;
     cursor: pointer;
     z-index: 200;
     position: relative;
