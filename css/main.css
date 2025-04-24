@@ -1,15 +1,147 @@
 html {
-    --header: #414141;
-    --body: #5D5D5D;
-    --footer:#7E7E7E;
+  --header: #414141;
+  --body: #5d5d5d;
+  --footer: #7e7e7e;
 }
 
 body {
-    margin: 0;
+  margin: 0;
+}
+
+header {
+  background-color: var(--header);
+  width: 100%;
+  height: 6rem;
+}
+
+main {
+  background-color: var(--body);
+  width: 100%;
+  height: 50rem;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+}
+
+#footer-main-division {
+  background-color: var(--footer);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  gap: 10rem;
+}
+
+footer a img {
+  max-width: 250px;
+}
+
+footer a img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#footer-container {
+  display: flex;
+  gap: 5rem;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-list-head {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.footer-list-sub-head {
+  margin-bottom: 0.2rem;
+}
+
+.follow-us {
+  padding-left: 7rem;
+}
+
+.follow-us-sub-division {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.follow-us p {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.follow-us a img {
+  margin: 5px;
+}
+
+.follow-us img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+#footer-copy-right-division {
+  background-color: var(--footer);
+  border-top: 2px solid #fff;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+#footer-copy-right-division p {
+  color: white;
+  font-size: 1rem;
+}
+
+@media (max-width: 1200px) {
+  #footer-main-division {
+    gap: 3rem;
   }
 
-header{
-    background-color: var(--header);
-    width: 100%;
-    height: 6rem;
+  #footer-container {
+    gap: 2rem;
+  }
+
+  .follow-us {
+    padding-left: 0;
+  }
+
+  .follow-us-sub-division {
+    justify-content: center;
+  }
+
+  footer a img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 760px) {
+  #footer-container {
+    gap: 4rem;
+  }
+
+  footer a img {
+    max-width: 220px;
+  }
+
+  #footer-main-division {
+    flex-direction: column;
+    padding: 2rem;
+  }
+ 
 }
