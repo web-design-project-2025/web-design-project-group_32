@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+}
+/* The hero section and the search bar */
+#hero-section {
+  background-color: blue;
+  height: 50%;
+  margin: none;
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-section h1 {
+  height: 2rem;
+  color: white;
+  width: 100%;
+  text-align: center;
+  min-width: 10rem;
+}
+
+#hero-section button {
+  display: block;
+  color: white;
+  background-color: rgb(189, 12, 71);
+  width: 6rem;
+  height: 2rem;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+#search-section {
+  width: 30%;
+  height: 50%;
+  margin: auto;
+  min-width: 18rem;
+}
+
+#search-bar {
+  width: 100%;
+  height: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  min-width: 18rem;
+  padding-left: 1rem;
+}
+
+#hero-section button:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+/* Popular searches section */
+#popular-title{
+    width:100%;
+    text-align: center;
+    color:white;
+}
