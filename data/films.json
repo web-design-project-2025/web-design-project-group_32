@@ -2,7 +2,7 @@
   "films": [
     {
       "title": "Paddington in Peru",
-      "genre": "Animation, Adventure, Family",
+      "genre": ["Animation", "Adventure", "Family"],
       "year": 2025,
       "director": "Paul King",
       "cast": ["Ben Whishaw", "Hugh Bonneville", "Sally Hawkins"],
@@ -10,7 +10,7 @@
     },
     {
       "title": "The Amateur",
-      "genre": "Drama, Thriller",
+      "genre": ["Drama", "Thriller"],
       "year": 2024,
       "director": "Tommy Bertelsen",
       "cast": ["William Moseley", "Olivia Grace Applegate", "Toni Trucks"],
@@ -18,7 +18,7 @@
     },
     {
       "title": "A Minecraft Movie",
-      "genre": "Adventure, Animation, Fantasy",
+      "genre": ["Adventure", "Animation", "Fantasy"],
       "year": 2025,
       "director": "Jared Hess",
       "cast": ["Jack Black", "Jason Momoa", "Tati Gabrielle"],
@@ -27,7 +27,7 @@
     },
     {
       "title": "Ballerina",
-      "genre": "Action, Thriller",
+      "genre": ["Action", "Thriller"],
       "year": 2024,
       "director": "Len Wiseman",
       "cast": ["Ana de Armas", "Lupita Nyong'o", "James McAvoy"],
@@ -35,7 +35,7 @@
     },
     {
       "title": "Warfare",
-      "genre": "Action, War",
+      "genre": ["Action", "War"],
       "year": 2025,
       "director": "Michael Bay",
       "cast": ["Chris Hemsworth", "Zoe Saldana", "Gerard Butler"],
@@ -43,7 +43,7 @@
     },
     {
       "title": "Mickey 17",
-      "genre": "Sci-Fi, Thriller",
+      "genre": ["Sci-Fi", "Thriller"],
       "year": 2025,
       "director": "Bong Joon-ho",
       "cast": ["Robert Pattinson", "Tilda Swinton", "Steven Yeun"],
@@ -51,7 +51,7 @@
     },
     {
       "title": "Snow White",
-      "genre": "Fantasy, Adventure, Family",
+      "genre": ["Fantasy", "Adventure", "Family"],
       "year": 2024,
       "director": "Marc Webb",
       "cast": ["Rachel Zegler", "Gal Gadot", "Andrew Burnap"],
@@ -59,7 +59,7 @@
     },
     {
       "title": "Black Bag",
-      "genre": "Mystery, Thriller",
+      "genre": ["Mystery", "Thriller"],
       "year": 2024,
       "director": "Peter Berg",
       "cast": ["Ryan Reynolds", "Julia Roberts", "Ben Affleck"],
@@ -67,7 +67,7 @@
     },
     {
       "title": "Sinners",
-      "genre": "Horror, Mystery",
+      "genre": ["Horror", "Mystery"],
       "year": 2024,
       "director": "David Fincher",
       "cast": ["Jessica Chastain", "Matthew McConaughey", "Jared Leto"],
@@ -75,7 +75,7 @@
     },
     {
       "title": "Mission Impossible: The Final Reckoning",
-      "genre": "Action, Thriller, Adventure",
+      "genre": ["Action", "Thriller", "Adventure"],
       "year": 2025,
       "director": "Christopher McQuarrie",
       "cast": ["Tom Cruise", "Rebecca Ferguson", "Simon Pegg"],
