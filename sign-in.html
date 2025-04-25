@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/Sign-in.css" />
     <script src="js/main.js" defer></script>
   </head>
   <body>
@@ -28,5 +29,22 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <div id="sign-in-background">
+        <img src="images/sing-in.png" />
+      </div>
+      <div id="sign-in-container">
+        <div id="sign-in">
+          <h1>Sign In</h2>
+          <p class="sign-in-title">Username</p>
+          <input type="text" placeholder="Username@gmail.com" required>
+          <p class="sign-in-title">Password</p>
+          <input type="password" placeholder="Password" required>
+          <a class="forgot-password" href="#">Forgot Password?</a>
+          <button id="sign-in-button" type="button">Sign in</button>
+          <a href="#" class="register">Don't have an account yet? Register for free</a>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
