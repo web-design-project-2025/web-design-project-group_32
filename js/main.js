@@ -11,9 +11,16 @@ burgerMenu.addEventListener("click", () => {
 function loadFilms() {
   fetch("data/films.json")
     .then((response) => response.json())
-    .then((response) => {
-      console.log(response);
-      console.log("Films have been loaded");
+    .then((data) => {
+      const filmListElement = document.getElementById("popular-searches");
+      for (let film of data.films.slice(0, 7)) {
+        const filmPosterElement = document.createElement("div");
+        filmPosterElement.innerHTML = `
+        <div>
+        <img class="film-poster" src="${film.poster}">
+        </div>`;
+        filmListElement.appendChild(filmPosterElement);
+      }
     });
 }
 

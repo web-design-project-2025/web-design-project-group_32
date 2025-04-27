@@ -2,6 +2,7 @@
   "films": [
     {
       "id": 1,
+      "poster": "images/film-posters/paddington-in-peru-poster.jpg",
       "title": "Paddington in Peru",
       "genre": ["Animation", "Adventure", "Family"],
       "year": 2025,
@@ -17,6 +18,7 @@
     },
     {
       "id": 2,
+      "poster": "images/film-posters/the-amateur-poster.jpg",
       "title": "The Amateur",
       "genre": ["Drama", "Thriller"],
       "year": 2024,
@@ -32,16 +34,18 @@
     },
     {
       "id": 3,
+      "poster": "images/film-posters/a-minecraft-movie-poster.jpg",
       "title": "A Minecraft Movie",
       "genre": ["Adventure", "Animation", "Fantasy"],
       "year": 2025,
       "director": "Jared Hess",
       "cast": ["Jack Black", "Jason Momoa", "Tati Gabrielle", "Awkwafina"],
-      "plot": "A group of explorers is sucked into the blocky world of Minecraft, where they must navigate dangerous mobs, build incredible structures, and defeat the powerful Ender Dragon to escape. Directed by Jared Hess, the film blends adventure, humor, and creativity in a pixelated universe.",
+      "plot": "A group of explorers is sucked into the blocky world of Minecraft...",
       "rating": 3.5
     },
     {
       "id": 4,
+      "poster": "images/film-posters/ballerina-poster.jpg",
       "title": "Ballerina",
       "genre": ["Action", "Thriller"],
       "year": 2024,
@@ -52,21 +56,23 @@
         "James McAvoy",
         "Jeffrey Dean Morgan"
       ],
-      "plot": "A former ballerina embarks on a mission of revenge against those who wronged her, leading to an action-packed journey of mystery and suspense.",
+      "plot": "A former ballerina embarks on a mission of revenge against those who wronged her.",
       "rating": 4.5
     },
     {
       "id": 5,
+      "poster": "images/film-posters/warfare-poster.jpg",
       "title": "Warfare",
       "genre": ["Action", "War"],
       "year": 2025,
       "director": "Michael Bay",
       "cast": ["Chris Hemsworth", "Zoe Saldana", "Gerard Butler", "Tom Hardy"],
-      "plot": "A group of soldiers are sent on a high-stakes mission during a global conflict, but the chaos of war pushes them to their limits, testing their survival instincts and loyalty.",
+      "plot": "A group of soldiers are sent on a high-stakes mission during a global conflict...",
       "rating": 2.5
     },
     {
       "id": 6,
+      "poster": "images/film-posters/mickey-17-poster.jpg",
       "title": "Mickey 17",
       "genre": ["Sci-Fi", "Thriller"],
       "year": 2025,
@@ -77,31 +83,34 @@
         "Steven Yeun",
         "Hannah John-Kamen"
       ],
-      "plot": "A group of colonists on a distant planet must rely on a man whose mind is constantly reset, leading to questions of identity, humanity, and survival in the vast unknown.",
+      "plot": "Colonists on a distant planet must rely on a man whose mind is constantly reset.",
       "rating": 4.7
     },
     {
       "id": 7,
+      "poster": "images/film-posters/snow-white-poster.jpg",
       "title": "Snow White",
       "genre": ["Fantasy", "Adventure", "Family"],
       "year": 2024,
       "director": "Marc Webb",
       "cast": ["Rachel Zegler", "Gal Gadot", "Andrew Burnap", "Toni Collette"],
-      "plot": "A reimagining of the classic Snow White tale, where Snow White must overcome obstacles and discover her inner strength with the help of seven magical dwarfs.",
+      "plot": "A reimagining of the classic Snow White tale...",
       "rating": 3
     },
     {
       "id": 8,
+      "poster": "images/film-posters/black-bag-poster.jpg",
       "title": "Black Bag",
       "genre": ["Mystery", "Thriller"],
       "year": 2024,
       "director": "Peter Berg",
       "cast": ["Ryan Reynolds", "Julia Roberts", "Ben Affleck", "Oscar Isaac"],
-      "plot": "A mysterious black bag contains a secret that threatens to unravel the lives of three individuals as they get caught in a high-stakes game of deception and survival.",
+      "plot": "A mysterious black bag contains a secret that threatens to unravel lives...",
       "rating": 4
     },
     {
       "id": 9,
+      "poster": "images/film-posters/sinners-poster.jpg",
       "title": "Sinners",
       "genre": ["Horror", "Mystery"],
       "year": 2025,
@@ -112,17 +121,18 @@
         "Lakeith Stanfield",
         "Sterling K. Brown"
       ],
-      "plot": "A group of detectives investigates a series of gruesome crimes tied to the seven deadly sins. As they delve deeper into the case, they uncover a horrifying truth that challenges their morality.",
+      "plot": "Detectives investigate gruesome crimes tied to the seven deadly sins.",
       "rating": 4.2
     },
     {
       "id": 10,
+      "poster": "images/film-posters/mission-impossible-the-final-reckoning-poster.jpg",
       "title": "Mission Impossible: The Final Reckoning",
       "genre": ["Action", "Thriller", "Adventure"],
       "year": 2025,
       "director": "Christopher McQuarrie",
       "cast": ["Tom Cruise", "Rebecca Ferguson", "Simon Pegg", "Ving Rhames"],
-      "plot": "Ethan Hunt faces his toughest mission yet as he races against time to prevent a global catastrophe while dealing with personal loss and betrayal.",
+      "plot": "Ethan Hunt races against time to prevent a global catastrophe.",
       "rating": 5
     }
   ]

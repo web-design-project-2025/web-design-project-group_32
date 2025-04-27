@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
 }
+
 /* The hero section and the search bar */
 #hero-section {
   background-color: blue;
@@ -50,8 +51,19 @@ body {
 }
 
 /* Popular searches section */
-#popular-title {
+#popular-searches-title {
   width: 100%;
   text-align: center;
   color: white;
+}
+
+#popular-searches {
+  display: flex;
+  justify-content: center;
+}
+
+.film-poster {
+  width: 8rem;
+  border-radius: 6%;
+  margin: 0 0.3rem;
 }
