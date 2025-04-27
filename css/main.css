@@ -2,10 +2,18 @@
   border: none;
   padding: none;
 } */
+
 html {
-  --header: #414141;
-  --body: #5d5d5d;
-  --footer: #7e7e7e;
+  /* Fonts */
+  --primary-font: "Roboto", sans-serif; /* Font for body text */
+  --secondary-font: "Open Sans", sans-serif; /* Font for headings and titles */
+
+  /* Colors */
+  --primary-bg-color: #414141; /* Background color for header and body */
+  --footer-bg-color: #515151; /* Background color for footer */
+  --text-color: #ffffff; /* Text color for general content */
+  --button-bg-color: #bd0c47; /* Background color for buttons */
+  --star-color: #ffdf00; /* Color for star ratings */
 }
 
 body {
@@ -13,13 +21,13 @@ body {
 }
 
 header {
-  background-color: var(--header);
+  background-color: var(--primary-bg-color);
   width: 100%;
   height: 6rem;
 }
 
 main {
-  background-color: var(--body);
+  background-color: var(--primary-bg-color);
   width: 100%;
   height: 50rem;
 }
@@ -62,7 +70,6 @@ header a {
 }
 
 /* Mobile menu */
-
 .burgermenu {
   display: none;
 }
@@ -119,7 +126,6 @@ header a {
   }
 
   /* Turns into a close button */
-
   .burgermenu.active span:nth-child(1) {
     transform: rotate(45deg);
     position: absolute;
@@ -134,7 +140,7 @@ header a {
     top: 13px;
   }
 }
-/*   Footer */
+/* Footer */
 footer {
   font-family: "Roboto", sans-serif;
 }
@@ -172,11 +178,11 @@ footer a img:hover {
 
 .footer-list a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 
 .footer-list-head {
-  color: white;
+  color: var(--text-color);
   font-size: 1.3rem;
   font-weight: bold;
 }
@@ -196,7 +202,7 @@ footer a img:hover {
 }
 
 .follow-us p {
-  color: white;
+  color: var(--text-color);
   font-size: 1.3rem;
   font-weight: bold;
   padding-left: 8px;
@@ -212,14 +218,14 @@ footer a img:hover {
 }
 
 #footer-copy-right-division {
-  background-color: var(--footer);
+  background-color: var(--footer-bg-color);
   border-top: 2px solid #fff;
   text-align: center;
   padding: 0.3rem;
 }
 
 #footer-copy-right-division p {
-  color: white;
+  color: var(--text-color);
   font-size: 1rem;
 }
 
