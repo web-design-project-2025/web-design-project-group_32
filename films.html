@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="/css/films.css" />
     <script src="js/main.js" defer></script>
   </head>
   <body>
     <header>
       <nav>
-        <!-- Logo image for the header and home page button -->
+        <!-- Logo and home page button -->
         <a class="logo" href="index.html"><img src="images/Logo.png" /></a>
 
         <!-- It's the mobile menu button-->
@@ -28,7 +29,32 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div id="filters">
+        <h2 id="filters-title">SORT BY</h2>
+        <div id="select-section">
+          <select id="Genre" onchange="applyFilters()">
+            <option value="disabled selected">Genre</option>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="horror">Horror</option>
+            <option value="war">War</option>
+          </select>
+          <select id="rating" onchange="applyFilters()">
+            <option value="disabled selected">Rating</option>
+            <option value="highest">Highest</option>
+            <option value="lowest">Lowest</option>
+          </select>
+          <select id="year">
+            <option value="disabled selected">Year</option>
+            <option value="all">All</option>
+            <option value="2020s">2020s</option>
+            <option value="2010s">2010</option>
+            <option value="2000s">2000s</option>
+          </select>
+        </div>
+      </div>
+    </main>
     <footer>
       <div id="footer-main-division">
         <!-- The logo image featured in the footer section  -->
