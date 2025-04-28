@@ -1,0 +1,51 @@
+#title-comments {
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  width: 60%;
+  margin: 0 auto 2rem auto;
+}
+
+/* comment section container */
+#comment-section {
+  background-color: var(--primary-bg-color);
+  width: 60%;
+  margin: 0 auto 2rem auto;
+  overflow-y: auto;
+  height: 30rem;
+  border: 1px solid var(--text-color);
+  padding: 1rem;border-radius: 1rem;
+}
+
+/* comments and usernamers */
+.comment {
+  border: 1px solid var(--text-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: cover;
+}
+
+.comment-content {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.uesr-name {
+  font-weight: bold;
+}
+
+.text {
+  font-weight: normal;
+}
