@@ -41,7 +41,7 @@
       "director": "Jared Hess",
       "cast": ["Jack Black", "Jason Momoa", "Tati Gabrielle", "Awkwafina"],
       "plot": "A group of explorers is sucked into the blocky world of Minecraft...",
-      "rating": 3.5
+      "rating": 3
     },
     {
       "id": 4,
@@ -57,7 +57,7 @@
         "Jeffrey Dean Morgan"
       ],
       "plot": "A former ballerina embarks on a mission of revenge against those who wronged her.",
-      "rating": 4.5
+      "rating": 4
     },
     {
       "id": 5,
@@ -68,7 +68,7 @@
       "director": "Michael Bay",
       "cast": ["Chris Hemsworth", "Zoe Saldana", "Gerard Butler", "Tom Hardy"],
       "plot": "A group of soldiers are sent on a high-stakes mission during a global conflict...",
-      "rating": 2.5
+      "rating": 2
     },
     {
       "id": 6,
@@ -84,7 +84,7 @@
         "Hannah John-Kamen"
       ],
       "plot": "Colonists on a distant planet must rely on a man whose mind is constantly reset.",
-      "rating": 4.7
+      "rating": 4
     },
     {
       "id": 7,
@@ -122,7 +122,7 @@
         "Sterling K. Brown"
       ],
       "plot": "Detectives investigate gruesome crimes tied to the seven deadly sins.",
-      "rating": 4.2
+      "rating": 4
     },
     {
       "id": 10,

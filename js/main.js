@@ -16,9 +16,13 @@ function loadFilms() {
       for (let film of data.films.slice(0, 7)) {
         const filmPosterElement = document.createElement("div");
         filmPosterElement.innerHTML = `
-        <div>
         <img class="film-poster" src="${film.poster}">
-        </div>`;
+        <div class="star-container">
+        ${'<img src="images/star.png" alt="star-rating" class="star">'.repeat(
+          film.rating
+        )}
+        </div>
+        `;
         filmListElement.appendChild(filmPosterElement);
       }
     });
