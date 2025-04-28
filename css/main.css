@@ -1,8 +1,3 @@
-/* * {
-  border: none;
-  padding: none;
-} */
-
 html {
   /* Fonts */
   --primary-font: "Roboto", sans-serif; /* Font for body text */
@@ -39,7 +34,7 @@ nav li {
   width: 8rem;
   min-width: 7rem;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .nav-links {
@@ -65,7 +60,7 @@ nav {
 }
 
 header a {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -83,7 +78,6 @@ header a {
     width: 6.25rem;
     top: 4rem;
     right: 1rem;
-    background-color: black;
     flex-direction: column;
     padding: 1.5rem;
     border-radius: 0 0 8px 8px;
@@ -142,11 +136,11 @@ header a {
 }
 /* Footer */
 footer {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
 }
 
 #footer-main-division {
-  background-color: var(--footer);
+  background-color: var(--footer-bg-color);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -219,7 +213,7 @@ footer a img:hover {
 
 #footer-copy-right-division {
   background-color: var(--footer-bg-color);
-  border-top: 2px solid #fff;
+  border-top: 2px solid var(--text-color);
   text-align: center;
   padding: 0.3rem;
 }
