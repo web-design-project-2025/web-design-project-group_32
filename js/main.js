@@ -8,6 +8,7 @@ burgerMenu.addEventListener("click", () => {
   mobileMenu.classList.toggle("show");
 });
 
+// HeroSection images
 function loadHandler() {
   fetch("json/hero.json")
     .then((response) => response.json())
