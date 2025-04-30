@@ -28,4 +28,4 @@ function loadHandler() {
   heroSection.style.backgroundImage = "url('hero-img/" + randomImage + "')";
 }
 
-window.addEventListener("load", loadHandler);
+document.addEventListener("DOMContentLoaded", loadHandler);
