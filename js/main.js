@@ -10,24 +10,22 @@ burgerMenu.addEventListener("click", () => {
 
 // HeroSection images
 function loadHandler() {
-  fetch("json/hero.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const lastIndex = Number(localStorage.getItem("index"));
+  const images = ["img-1.jpg", "img-2.jpg", "img-3.jpg", "img-4.jpg"];
 
-      let randomIndex = Math.floor(Math.random() * data.length);
+  const lastIndex = Number(localStorage.getItem("index"));
 
-      while (randomIndex === lastIndex) {
-        randomIndex = Math.floor(Math.random() * data.length);
-      }
+  let randomIndex = Math.floor(Math.random() * images.length);
 
-      const randomImage = data[randomIndex];
+  while (randomIndex === lastIndex) {
+    randomIndex = Math.floor(Math.random() * images.length);
+  }
 
-      localStorage.setItem("index", randomIndex);
+  const randomImage = images[randomIndex];
 
-      const heroSection = document.getElementById("hero-section");
-      heroSection.style.backgroundImage = "url('hero-img/" + randomImage + "')";
-    });
+  localStorage.setItem("index", randomIndex);
+
+  const heroSection = document.getElementById("hero-section");
+  heroSection.style.backgroundImage = "url('hero-img/" + randomImage + "')";
 }
 
 window.addEventListener("load", loadHandler);
