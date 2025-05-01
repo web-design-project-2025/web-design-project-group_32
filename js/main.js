@@ -1,4 +1,5 @@
 // Set up burgerMenu from Sean
+
 const burgerMenu = document.getElementById("burgermenu");
 const mobileMenu = document.getElementById("mobileMenu");
 
