@@ -48,7 +48,7 @@
 }
 
 .uesr-name {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .text {
@@ -56,10 +56,13 @@
 }
 
 .stars {
-  margin-left: 1rem;
   color: #ffd700;
 }
 
+.uesrname {
+  font-weight: 800;
+  font-size: large;
+}
 @media screen and (max-width: 430px) {
   #comment-section {
     border: none;

@@ -30,7 +30,8 @@ fetch("../data/comments.json")
       commentDiv.innerHTML = `
         <img src="${comment.avatar}" alt="Avatar" class="avatar">
         <div class="comment-content">
-        <div class="user-name">${comment.username} ${starsHTML}</div>
+        <div class="user-name">
+        <span class="uesrname">${comment.username}</span> rated ${starsHTML}</div>
         <div class="text">${comment.text}</div>
         </div>
         `;
