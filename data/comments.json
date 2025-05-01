@@ -2,251 +2,271 @@
   {
     "username": "Uma Thurman",
     "avatar": "https://i.pravatar.cc/50?img=40",
-    "text": "Characters were well developed and relatable."
+    "text": "Characters were well developed and relatable.",
+    "rating": 4.5
   },
   {
     "username": "George Clooney",
     "avatar": "https://i.pravatar.cc/50?img=17",
-    "text": "An emotional rollercoaster I didn't want to end."
+    "text": "An emotional rollercoaster I didn't want to end.",
+    "rating": 5
   },
   {
     "username": "Alice Johnson",
     "avatar": "https://i.pravatar.cc/50?img=3",
-    "text": "Slightly overrated, but still good."
+    "text": "Slightly overrated, but still good.",
+    "rating": 3.5
   },
   {
     "username": "Oscar Wilde",
     "avatar": "https://i.pravatar.cc/50?img=58",
-    "text": "Pacing issues aside, a brilliant piece."
+    "text": "Pacing issues aside, a brilliant piece.",
+    "rating": 4
   },
   {
     "username": "Michael Jordan",
     "avatar": "https://i.pravatar.cc/50?img=5",
-    "text": "Could have been better in some parts, but overall great."
+    "text": "Could have been better in some parts, but overall great.",
+    "rating": 3
   },
   {
     "username": "Nancy Drew",
     "avatar": "https://i.pravatar.cc/50?img=17",
-    "text": "A must-watch for fans of the genre."
+    "text": "A must-watch for fans of the genre.",
+    "rating": 4
   },
   {
     "username": "Isaac Newton",
     "avatar": "https://i.pravatar.cc/50?img=51",
-    "text": "Visually stunning and emotionally impactful."
+    "text": "Visually stunning and emotionally impactful.",
+    "rating": 5
   },
   {
     "username": "Zachary Levi",
     "avatar": "https://i.pravatar.cc/50?img=21",
-    "text": "I laughed, I cried, I loved it."
+    "text": "I laughed, I cried, I loved it.",
+    "rating": 4.5
   },
   {
     "username": "Tina Fey",
     "avatar": "https://i.pravatar.cc/50?img=8",
-    "text": "Top-notch acting and direction."
+    "text": "Top-notch acting and direction.",
+    "rating": 4
   },
   {
     "username": "Bob Smith",
     "avatar": "https://i.pravatar.cc/50?img=16",
-    "text": "A bit slow at times, but picked up in the second half."
+    "text": "A bit slow at times, but picked up in the second half.",
+    "rating": 3
   },
   {
     "username": "Steve Jobs",
     "avatar": "https://i.pravatar.cc/50?img=23",
-    "text": "Could have been better in some parts, but overall great."
+    "text": "Could have been better in some parts, but overall great.",
+    "rating": 3.5
   },
   {
     "username": "Zachary Levi",
     "avatar": "https://i.pravatar.cc/50?img=28",
-    "text": "Could have been better in some parts, but overall great."
+    "text": "Could have been better in some parts, but overall great.",
+    "rating": 3
   },
   {
     "username": "Paula Abdul",
     "avatar": "https://i.pravatar.cc/50?img=70",
-    "text": "Not what I expected, but still enjoyable."
+    "text": "Not what I expected, but still enjoyable.",
+    "rating": 3.5
   },
   {
     "username": "George Clooney",
     "avatar": "https://i.pravatar.cc/50?img=62",
-    "text": "An unforgettable experience."
+    "text": "An unforgettable experience.",
+    "rating": 5
   },
   {
     "username": "Charlie Brown",
     "avatar": "https://i.pravatar.cc/50?img=69",
-    "text": "Visually stunning and emotionally impactful."
+    "text": "Visually stunning and emotionally impactful.",
+    "rating": 4.5
   },
   {
     "username": "George Clooney",
     "avatar": "https://i.pravatar.cc/50?img=17",
-    "text": "Characters were well developed and relatable."
+    "text": "Characters were well developed and relatable.",
+    "rating": 4
   },
   {
     "username": "Laura Palmer",
     "avatar": "https://i.pravatar.cc/50?img=35",
-    "text": "An unforgettable experience."
+    "text": "An unforgettable experience.",
+    "rating": 5
   },
   {
     "username": "Michael Jordan",
     "avatar": "https://i.pravatar.cc/50?img=64",
-    "text": "Slightly overrated, but still good."
+    "text": "Slightly overrated, but still good.",
+    "rating": 3.5
   },
   {
     "username": "Victor Hugo",
     "avatar": "https://i.pravatar.cc/50?img=61",
-    "text": "The story dragged a little bit in the middle."
+    "text": "The story dragged a little bit in the middle.",
+    "rating": 3
   },
   {
     "username": "Zachary Levi",
     "avatar": "https://i.pravatar.cc/50?img=4",
-    "text": "Pacing issues aside, a brilliant piece."
+    "text": "Pacing issues aside, a brilliant piece.",
+    "rating": 4
   },
   {
     "username": "Isaac Newton",
     "avatar": "https://i.pravatar.cc/50?img=28",
-    "text": "An unforgettable experience."
+    "text": "An unforgettable experience.",
+    "rating": 5
   },
   {
     "username": "Michael Jordan",
     "avatar": "https://i.pravatar.cc/50?img=15",
-    "text": "Leaves you thinking long after it's over."
+    "text": "Leaves you thinking long after it's over.",
+    "rating": 4
   },
   {
     "username": "Bob Smith",
     "avatar": "https://i.pravatar.cc/50?img=10",
-    "text": "The plot was gripping from start to finish."
+    "text": "The plot was gripping from start to finish.",
+    "rating": 4.5
   },
   {
     "username": "Diana Prince",
     "avatar": "https://i.pravatar.cc/50?img=70",
-    "text": "Pacing issues aside, a brilliant piece."
+    "text": "Pacing issues aside, a brilliant piece.",
+    "rating": 3.5
   },
   {
     "username": "Julia Roberts",
     "avatar": "https://i.pravatar.cc/50?img=1",
-    "text": "An emotional rollercoaster I didn't want to end."
+    "text": "An emotional rollercoaster I didn't want to end.",
+    "rating": 5
   },
   {
     "username": "Hannah Montana",
     "avatar": "https://i.pravatar.cc/50?img=54",
-    "text": "An unforgettable experience."
+    "text": "An unforgettable experience.",
+    "rating": 5
   },
   {
     "username": "George Clooney",
     "avatar": "https://i.pravatar.cc/50?img=60",
-    "text": "The plot was gripping from start to finish."
+    "text": "The plot was gripping from start to finish.",
+    "rating": 4.5
   },
   {
     "username": "Fiona Gallagher",
     "avatar": "https://i.pravatar.cc/50?img=64",
-    "text": "An emotional rollercoaster I didn't want to end."
+    "text": "An emotional rollercoaster I didn't want to end.",
+    "rating": 5
   },
   {
     "username": "Julia Roberts",
     "avatar": "https://i.pravatar.cc/50?img=9",
-    "text": "Characters were well developed and relatable."
+    "text": "Characters were well developed and relatable.",
+    "rating": 4
   },
   {
     "username": "Isaac Newton",
     "avatar": "https://i.pravatar.cc/50?img=4",
-    "text": "Leaves you thinking long after it's over."
+    "text": "Leaves you thinking long after it's over.",
+    "rating": 4.5
   },
   {
     "username": "Michael Jordan",
     "avatar": "https://i.pravatar.cc/50?img=15",
-    "text": "An unforgettable experience."
+    "text": "An unforgettable experience.",
+    "rating": 5
   },
   {
     "username": "Diana Prince",
     "avatar": "https://i.pravatar.cc/50?img=13",
-    "text": "Top-notch acting and direction."
+    "text": "Top-notch acting and direction.",
+    "rating": 4
   },
   {
     "username": "Julia Roberts",
     "avatar": "https://i.pravatar.cc/50?img=43",
-    "text": "Masterfully crafted, a true work of art."
+    "text": "Masterfully crafted, a true work of art.",
+    "rating": 5
   },
   {
     "username": "Michael Jordan",
     "avatar": "https://i.pravatar.cc/50?img=41",
-    "text": "Would definitely watch again."
+    "text": "Would definitely watch again.",
+    "rating": 4
   },
   {
     "username": "Rachel Green",
     "avatar": "https://i.pravatar.cc/50?img=48",
-    "text": "I laughed, I cried, I loved it."
+    "text": "I laughed, I cried, I loved it.",
+    "rating": 4.5
   },
   {
     "username": "Wendy Darling",
     "avatar": "https://i.pravatar.cc/50?img=65",
-    "text": "An emotional rollercoaster I didn't want to end."
+    "text": "An emotional rollercoaster I didn't want to end.",
+    "rating": 5
   },
   {
     "username": "Laura Palmer",
     "avatar": "https://i.pravatar.cc/50?img=54",
-    "text": "Characters were well developed and relatable."
+    "text": "Characters were well developed and relatable.",
+    "rating": 4
   },
   {
     "username": "Yvonne Strahovski",
     "avatar": "https://i.pravatar.cc/50?img=34",
-    "text": "Would definitely watch again."
+    "text": "Would definitely watch again.",
+    "rating": 4
   },
   {
     "username": "George Clooney",
     "avatar": "https://i.pravatar.cc/50?img=50",
-    "text": "Slightly overrated, but still good."
+    "text": "Slightly overrated, but still good.",
+    "rating": 3.5
   },
   {
     "username": "Victor Hugo",
     "avatar": "https://i.pravatar.cc/50?img=35",
-    "text": "Soundtrack was on point!"
+    "text": "Soundtrack was on point!",
+    "rating": 4
   },
   {
     "username": "Tina Fey",
     "avatar": "https://i.pravatar.cc/50?img=11",
-    "text": "An unforgettable experience."
+    "text": "An unforgettable experience.",
+    "rating": 5
   },
   {
     "username": "Paula Abdul",
     "avatar": "https://i.pravatar.cc/50?img=27",
-    "text": "Soundtrack was on point!"
+    "text": "Soundtrack was on point!",
+    "rating": 4.5
   },
   {
     "username": "Bob Smith",
     "avatar": "https://i.pravatar.cc/50?img=35",
-    "text": "An emotional rollercoaster I didn't want to end."
+    "text": "An emotional rollercoaster I didn't want to end.",
+    "rating": 5
   },
   {
     "username": "Isaac Newton",
     "avatar": "https://i.pravatar.cc/50?img=37",
-    "text": "Pacing issues aside, a brilliant piece."
+    "text": "Could have been better in some parts, but overall great.",
+    "rating": 3
   },
   {
-    "username": "Bob Smith",
-    "avatar": "https://i.pravatar.cc/50?img=50",
-    "text": "Absolutely loved it! Highly recommend to everyone."
-  },
-  {
-    "username": "Diana Prince",
-    "avatar": "https://i.pravatar.cc/50?img=42",
-    "text": "I laughed, I cried, I loved it."
-  },
-  {
-    "username": "Charlie Brown",
-    "avatar": "https://i.pravatar.cc/50?img=21",
-    "text": "An unforgettable experience."
-  },
-  {
-    "username": "Tina Fey",
-    "avatar": "https://i.pravatar.cc/50?img=33",
-    "text": "Leaves you thinking long after it's over."
-  },
-  {
-    "username": "Isaac Newton",
-    "avatar": "https://i.pravatar.cc/50?img=1",
-    "text": "Masterfully crafted, a true work of art."
-  },
-  {
-    "username": "Charlie Brown",
-    "avatar": "https://i.pravatar.cc/50?img=28",
-    "text": "The story dragged a little bit in the middle."
+    "username": "Julia Roberts",
+    "avatar": "https://i.pravatar.cc/50?img=53",
+    "text": "Soundtrack was on point!",
+    "rating": 4.5
   }
 ]

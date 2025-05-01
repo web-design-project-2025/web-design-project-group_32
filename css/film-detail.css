@@ -5,6 +5,7 @@
   width: 60%;
   margin: 0 auto 2rem auto;
   max-width: 40rem;
+  min-width: 20rem;
 }
 
 /* comment section container */
@@ -52,6 +53,11 @@
 
 .text {
   font-weight: normal;
+}
+
+.stars {
+  margin-left: 1rem;
+  color: #ffd700;
 }
 
 @media screen and (max-width: 430px) {
