@@ -16,9 +16,6 @@ body {
 @media (max-width: 760px) {
   #hero-section {
     min-height: 15rem;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: auto;
     padding: 2rem 2rem;
   }
