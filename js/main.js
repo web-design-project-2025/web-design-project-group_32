@@ -10,7 +10,12 @@ burgerMenu.addEventListener("click", () => {
 
 // HeroSection images
 function loadHandler() {
-  const images = ["img-1.jpg", "img-2.jpg", "img-3.jpg", "img-4.jpg"];
+  const images = [
+    "hero-image-1.jpg",
+    "hero-image-2.jpg",
+    "hero-image-3.jpg",
+    "hero-image-4.jpg",
+  ];
 
   const lastIndex = Number(localStorage.getItem("index"));
 
@@ -25,7 +30,8 @@ function loadHandler() {
   localStorage.setItem("index", randomIndex);
 
   const heroSection = document.getElementById("hero-section");
-  heroSection.style.backgroundImage = "url('hero-img/" + randomImage + "')";
+  heroSection.style.backgroundImage =
+    "url('images/hero-images/" + randomImage + "')";
 }
 
 document.addEventListener("DOMContentLoaded", loadHandler);
