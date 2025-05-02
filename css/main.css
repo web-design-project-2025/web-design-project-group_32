@@ -12,19 +12,27 @@ html {
 }
 
 body {
+  background-color: var(--primary-bg-color);
+  font-family: var(--primary-font);
+  color: var(--text-color);
   margin: 0;
 }
 
 header {
   background-color: var(--primary-bg-color);
+  font-family: var(--secondary-font);
   width: 100%;
   height: 6rem;
 }
 
 main {
-  background-color: var(--primary-bg-color);
   width: 100%;
   height: 50rem;
+}
+
+h1,
+h2 {
+  font-family: var(--secondary-font);
 }
 
 /* header navgation bar form Sean*/
@@ -134,11 +142,8 @@ header a {
     top: 13px;
   }
 }
-/* Footer */
-footer {
-  font-family: var(--primary-font);
-}
 
+/* Footer */
 #footer-main-division {
   background-color: var(--footer-bg-color);
   display: flex;
