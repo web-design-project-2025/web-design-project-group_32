@@ -13,7 +13,6 @@ body {
 
 #hero-section h1 {
   height: 2rem;
-  color: white;
   width: 100%;
   text-align: center;
   min-width: 10rem;
@@ -21,8 +20,8 @@ body {
 
 #hero-section button {
   display: block;
-  color: white;
-  background-color: rgb(189, 12, 71);
+  color: var(--text-color);
+  background-color: var(--button-bg-color);
   width: 6rem;
   height: 2rem;
   border-radius: 1rem;
@@ -54,7 +53,6 @@ body {
 #popular-searches-title {
   width: 100%;
   text-align: center;
-  color: white;
 }
 
 #popular-searches {
