@@ -59,10 +59,9 @@
   color: #ffd700;
 }
 
-.uesrname {
+.username {
   font-weight: 800;
   font-size: large;
-  overflow: no;
 }
 @media screen and (max-width: 430px) {
   #comment-section {

@@ -31,7 +31,7 @@ fetch("../data/comments.json")
         <img src="${comment.avatar}" alt="Avatar" class="avatar">
         <div class="comment-content">
         <div class="user-name">
-        <span class="uesrname">${comment.username}</span> rated ${starsHTML}</div>
+        <span class="username">${comment.username}</span> rated ${starsHTML}</div>
         <div class="text">${comment.text}</div>
         </div>
         `;
