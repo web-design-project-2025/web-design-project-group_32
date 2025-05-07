@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <script src="js/main.js" defer></script>
+    <script src="js/sign-in.js" defer></script>
   </head>
   <body>
     <header>
@@ -34,6 +35,9 @@
           <li><a href="#">PROFILE</a></li>
         </ul>
       </nav>
+      <div id="sign-in-message-division">
+        <h1 id="sign-in-message"></h1>
+      </div>
     </header>
     <main>
       <div id="sign-in-background">
@@ -48,9 +52,10 @@
           <input type="password" placeholder="Enter Your Password" required />
           <a class="forgot-password" href="#">Forgot Password?</a>
           <button id="sign-in-button" type="button">Sign in</button>
-          <a href="#" class="register"
-            >Don't have an account yet? Register for free</a
-          >
+          <div class="account-line">
+            <p class="account-style">Don't have an account yet?</p>
+            <a href="#" class="register">Register for free</a>
+          </div>
         </div>
       </div>
     </main>
