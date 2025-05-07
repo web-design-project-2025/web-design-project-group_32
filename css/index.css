@@ -58,20 +58,10 @@ body {
 #popular-searches {
   display: flex;
   justify-content: center;
+  margin: 0 0 2rem 0;
 }
 
 .film-poster {
   width: 8rem;
-  border-radius: 6%;
   margin: 0 0.3rem;
-}
-
-.star {
-  width: 1.1rem;
-  margin: 0 0.08rem;
-}
-
-.star-container {
-  display: flex;
-  justify-content: center;
 }
