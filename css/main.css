@@ -8,7 +8,6 @@ html {
   --footer-bg-color: #515151; /* Background color for footer */
   --text-color: #ffffff; /* Text color for general content */
   --button-bg-color: #bd0c47; /* Background color for buttons */
-  --star-color: #ffdf00; /* Color for star ratings */
 }
 
 body {
@@ -21,13 +20,7 @@ body {
 header {
   background-color: var(--primary-bg-color);
   font-family: var(--secondary-font);
-  width: 100%;
   height: 6rem;
-}
-
-main {
-  width: 100%;
-  /* height: 50rem; */
 }
 
 h1,
@@ -48,14 +41,12 @@ nav li {
 .nav-links {
   width: 50%;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
 
 nav {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding-right: 1.5rem;
 }
