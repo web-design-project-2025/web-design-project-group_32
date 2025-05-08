@@ -24,6 +24,7 @@ header {
   background-color: var(--primary-bg-color);
   font-family: var(--secondary-font);
   height: 6rem;
+  box-shadow: var(--header-box-shadow);
 }
 
 h1,
@@ -42,7 +43,6 @@ nav li {
 }
 
 .nav-links {
-  width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
