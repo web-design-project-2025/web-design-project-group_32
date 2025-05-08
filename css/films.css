@@ -52,6 +52,24 @@ main {
   box-shadow: var(--film-poster-box-shadow);
 }
 
+@media screen and (max-width: 772px) {
+  #films-gallery {
+    grid-template-areas: "img img img img";
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #films-gallery {
+    grid-template-areas: "img img img";
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #films-gallery {
+    grid-template-areas: "img img";
+  }
+}
+
 @media screen and (max-width: 690px) {
   #filters {
     display: block;
