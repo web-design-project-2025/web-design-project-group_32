@@ -8,6 +8,9 @@ html {
   --footer-bg-color: #515151; /* Background color for footer */
   --text-color: #ffffff; /* Text color for general content */
   --button-bg-color: #bd0c47; /* Background color for buttons */
+
+  /* Shadows */
+  --header-box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #2b2b2b; /* Drop shadow for the header */
 }
 
 body {

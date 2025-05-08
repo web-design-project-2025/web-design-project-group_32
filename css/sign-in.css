@@ -7,6 +7,19 @@ main {
   justify-content: space-between;
 }
 
+#sign-in-message-division {
+  width: 100%;
+  height: 2.5rem;
+  margin-top: -7px;
+}
+
+#sign-in-message-division h1 {
+  padding-left: 45%;
+  font-size: 1.1rem;
+  padding-top: 6px;
+  text-align: center;
+}
+
 #sign-in-background {
   height: 100%;
   width: 40%;
@@ -25,6 +38,14 @@ main {
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
+}
+
+#sign-in-button:disabled {
+  background-color: #292626;
+  color: #fbf6f6;
+  cursor: not-allowed;
+  transform: none;
+  pointer-events: none;
 }
 
 #sign-in {
@@ -54,7 +75,27 @@ main {
   display: block;
   text-decoration: none;
   font-size: 0.8rem;
+}
+
+.register,
+.forgot-password {
   color: var(--text-color);
+  text-decoration: none;
+}
+
+.account-line {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.8rem;
+  justify-content: center;
+}
+
+.account-line .account-style,
+.account-line .register {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 #sign-in-button {
@@ -65,10 +106,6 @@ main {
   background-color: var(--button-bg-color);
   margin: 1rem 0 1rem 0;
   border-radius: 0.5rem;
-}
-
-.register {
-  text-align: center;
 }
 
 #sign-in-button:hover,
@@ -87,16 +124,27 @@ main {
     width: 100%;
     margin-right: 0;
   }
+  #sign-in-message-division h1 {
+    padding-left: 1rem;
+  }
 }
 
 @media screen and (max-width: 444px) {
   #sign-in {
     height: 100%;
-    padding: 0.5rem;
+    padding: 2rem;
     margin: 2rem;
     width: 100%;
     min-width: unset;
     border: none;
+  }
+
+  .account-line {
+    font-size: 0.75rem;
+  }
+
+  #sign-in a {
+    font-size: 0.75rem;
   }
 
   main {
