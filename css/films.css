@@ -49,6 +49,7 @@ main {
 
 .film-poster {
   width: 8rem;
+  box-shadow: var(--film-poster-box-shadow);
 }
 
 @media screen and (max-width: 690px) {
