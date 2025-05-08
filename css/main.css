@@ -11,7 +11,7 @@ html {
 
   /* Shadows */
   --header-box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #2b2b2b; /* Drop shadow for the header */
-  --film-poster-box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #2b2b2b; /* Drop shadow for the film posters */
+  --film-poster-box-shadow: 0.1rem 0.1rem 1rem 0.4rem #2b2b2b; /* Drop shadow for the film posters */
 }
 
 body {
