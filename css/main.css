@@ -27,10 +27,6 @@ header {
   box-shadow: var(--header-box-shadow);
 }
 
-main {
-  height: 50rem;
-}
-
 h1,
 h2 {
   font-family: var(--secondary-font);
@@ -47,7 +43,6 @@ nav li {
 }
 
 .nav-links {
-  width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
