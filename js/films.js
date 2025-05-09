@@ -108,7 +108,6 @@ function displayFilms(films) {
     filmPosterElement.innerHTML = `
     <img class="film-poster" src="${film.poster}">
     <div class="star-container">
-    <span class="rating">${film.rating}</span>
     </div>`;
 
     filmListElement.appendChild(filmPosterElement);
