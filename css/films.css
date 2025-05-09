@@ -37,6 +37,39 @@ main {
   padding-top: 0.2rem;
 }
 
+#films-gallery {
+  display: grid;
+  grid-template-areas:
+    "img img img img img"
+    "img img img img img";
+  margin: 1rem 0 4rem 0;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.film-poster {
+  width: 8rem;
+  box-shadow: var(--film-poster-box-shadow);
+}
+
+@media screen and (max-width: 772px) {
+  #films-gallery {
+    grid-template-areas: "img img img img";
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #films-gallery {
+    grid-template-areas: "img img img";
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #films-gallery {
+    grid-template-areas: "img img";
+  }
+}
+
 @media screen and (max-width: 690px) {
   #filters {
     display: block;
