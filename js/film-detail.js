@@ -16,13 +16,13 @@ fetch("../data/comments.json")
       // Show rating
       let starsHTML = `<span class="stars">`;
       for (let i = 0; i < fullStars; i++) {
-        starsHTML += `<img src="../images/Full.png" alt="full star" class="star">`;
+        starsHTML += `<img src="../images/rating-system/star-rating-full.png" alt="full star" class="star">`;
       }
       if (halfStar) {
-        starsHTML += `<img src="../images/Half.png" alt="half star" class="star">`;
+        starsHTML += `<img src="../images/rating-system/star-rating-half.png" alt="half star" class="star">`;
       }
       for (let i = 0; i < emptyStars; i++) {
-        starsHTML += `<img src="../images/Empty.png" alt="empty star" class="star">`;
+        starsHTML += `<img src="../images/rating-system/star-rating-empty.png" alt="empty star" class="star">`;
       }
       starsHTML += `</span>`;
 
