@@ -4,7 +4,7 @@ body {
 
 /* The hero section and the search bar */
 #hero-section {
-  height: 60%;
+  min-height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
