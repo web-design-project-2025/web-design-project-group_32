@@ -149,6 +149,141 @@
       "cast": ["Tom Cruise", "Hayley Atwell", "Ving Rhames", "Simon Pegg"],
       "plot": "Ethan Hunt and the IMF team race against time to stop the AI known as the Entity, which has infiltrated global intelligence networks, while being pursued by governments and a ghost from Ethan’s past.",
       "rating": 3
+    },
+    {
+      "id": 11,
+      "poster": "images/film-posters/parasite-poster.jpg",
+      "title": "Parasite",
+      "genre": ["Drama", "Thriller", "Comedy"],
+      "year": 2019,
+      "director": "Bong Joon-ho",
+      "cast": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong",
+        "Choi Woo-shik"
+      ],
+      "plot": "A poor family schemes to become employed by a wealthy family by infiltrating their household and posing as unrelated, highly qualified individuals.",
+      "rating": 4.5
+    },
+    {
+      "id": 12,
+      "poster": "images/film-posters/la-la-land-poster.jpg",
+      "title": "La La Land",
+      "genre": ["Drama", "Musical", "Romance", "Comedy"],
+      "year": 2016,
+      "director": "Damien Chazelle",
+      "cast": ["Ryan Gosling", "Emma Stone", "John Legend", "Rosemarie DeWitt"],
+      "plot": "A jazz musician and an aspiring actress fall in love, but their dreams drive them in opposite directions.",
+      "rating": 4.5
+    },
+    {
+      "id": 13,
+      "poster": "images/film-posters/whiplash-poster.jpg",
+      "title": "Whiplash",
+      "genre": ["Drama", "Music"],
+      "year": 2014,
+      "director": "Damien Chazelle",
+      "cast": [
+        "Miles Teller",
+        "J.K. Simmons",
+        "Paul Reiser",
+        "Melissa Benoist"
+      ],
+      "plot": "A young drummer is pushed to the limit by an abusive instructor at a prestigious music conservatory.",
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "poster": "images/film-posters/scott-pilgrim-vs-the-world-poster.jpg",
+      "title": "Scott Pilgrim vs. the World",
+      "genre": ["Action", "Comedy", "Romance"],
+      "year": 2010,
+      "director": "Edgar Wright",
+      "cast": [
+        "Michael Cera",
+        "Mary Elizabeth Winstead",
+        "Ellen Wong",
+        "Kieran Culkin"
+      ],
+      "plot": "Scott Pilgrim must defeat his new girlfriend's seven evil exes in order to win her heart.",
+      "rating": 4
+    },
+    {
+      "id": 15,
+      "poster": "images/film-posters/the-social-network-poster.jpg",
+      "title": "The Social Network",
+      "genre": ["Drama"],
+      "year": 2010,
+      "director": "David Fincher",
+      "cast": [
+        "Jesse Eisenberg",
+        "Andrew Garfield",
+        "Armie Hammer",
+        "Josh Pence"
+      ],
+      "plot": "In 2003, Mark Zuckerberg creates Facebook. Six years later, his success leads to legal and personal troubles, including lawsuits from a former friend.",
+      "rating": 4
+    },
+    {
+      "id": 16,
+      "poster": "images/film-posters/shrek-poster.jpg",
+      "title": "Shrek",
+      "genre": ["Animation", "Adventure", "Comedy", "Family"],
+      "year": 2001,
+      "director": ["Andrew Adamson, Vicky Jenson"],
+      "cast": ["Mike Myers", "Eddie Murphy", "Cameron Diaz", "John Lithgow"],
+      "plot": "A grumpy ogre sets out on a quest to rescue a princess, and along the way, he befriends a talkative donkey, all while discovering that true beauty comes from within.",
+      "rating": 4
+    },
+    {
+      "id": 17,
+      "poster": "images/film-posters/the-lord-of-the-rings-the-fellowship-of-the-ring-poster.jpg",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": ["Adventure", "Action", "Fantasy"],
+      "year": 2001,
+      "director": "Peter Jackson",
+      "cast": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen", "Sean Astin"],
+      "plot": "A young hobbit, Frodo, is entrusted with the task of destroying a powerful ring that could bring doom to Middle-earth, accompanied by a diverse group of companions on an epic journey.",
+      "rating": 4.5
+    },
+    {
+      "id": 18,
+      "poster": "images/film-posters/little-miss-sunshine-poster.jpg",
+      "title": "Little Miss Sunshine",
+      "genre": ["Comedy", "Drama"],
+      "year": 2006,
+      "director": ["Valerie Faris", "Jonathan Dayton"],
+      "cast": ["Greg Kinnear", "Toni Collette", "Steve Carell", "Paul Dano"],
+      "plot": "A dysfunctional family embarks on a cross-country road trip in order to support their daughter, who is competing in a beauty pageant, learning valuable lessons along the way.",
+      "rating": 4
+    },
+    {
+      "id": 19,
+      "poster": "images/film-posters/ratatouille-poster.jpg",
+      "title": "Ratatouille",
+      "genre": ["Animation", "Adventure", "Comedy", "Family"],
+      "year": 2007,
+      "director": "Brad Bird",
+      "cast": ["Patton Oswalt", "Ian Holm", "Lou Romano", "Brian Dennehy"],
+      "plot": "A rat named Remy dreams of becoming a chef in Paris and teams up with a young kitchen worker to create culinary masterpieces, overcoming obstacles along the way.",
+      "rating": 4
+    },
+    {
+      "id": 20,
+      "poster": "images/film-posters/no-country-for-old-men-poster.jpg",
+      "title": "No Country for Old Men",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "year": 2007,
+      "director": "Joel Coen, Ethan Coen",
+      "cast": [
+        "Javier Bardem",
+        "Tommy Lee Jones",
+        "Josh Brolin",
+        "Woody Harrelson"
+      ],
+      "plot": "A hunter stumbles upon a drug deal gone wrong and takes a suitcase of cash, setting off a violent chain of events as a relentless hitman pursues him.",
+      "rating": 4.5
     }
   ]
 }
