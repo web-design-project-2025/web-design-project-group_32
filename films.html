@@ -40,8 +40,9 @@
       <div id="filters">
         <h2 id="filters-title">SORT BY</h2>
         <div id="select-section">
-          <select id="Genre" onchange="applyFilters()">
+          <select id="genre" onchange="applyFilters()">
             <option value="disabled selected">Genre</option>
+            <option value="all">All</option>
             <option value="action">Action</option>
             <option value="comedy">Comedy</option>
             <option value="horror">Horror</option>
@@ -52,7 +53,7 @@
             <option value="highest">Highest</option>
             <option value="lowest">Lowest</option>
           </select>
-          <select id="year">
+          <select id="year" onchange="applyFilters()">
             <option value="disabled selected">Year</option>
             <option value="all">All</option>
             <option value="2020s">2020s</option>

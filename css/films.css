@@ -91,3 +91,7 @@ main {
     min-width: 21rem;
   }
 }
+
+.film-title {
+  max-width: 128px;
+}
