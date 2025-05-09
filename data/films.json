@@ -4,60 +4,65 @@
       "id": 1,
       "poster": "images/film-posters/paddington-in-peru-poster.jpg",
       "title": "Paddington in Peru",
-      "genre": ["Animation", "Adventure", "Family"],
+      "genre": ["Adventure", "Comedy", "Family"],
       "year": 2025,
-      "director": "Paul King",
+      "director": "Dougal Wilson",
       "cast": [
         "Ben Whishaw",
         "Hugh Bonneville",
-        "Sally Hawkins",
-        "Michael Gambon"
+        "Emily Mortimer",
+        "Samuel Joslin"
       ],
       "plot": "Paddington travels to Peru, the country of his origins, where he embarks on a fun-filled adventure while trying to find a special gift for his Aunt Lucy’s birthday.",
-      "rating": 4
+      "rating": 3.5
     },
     {
       "id": 2,
       "poster": "images/film-posters/the-amateur-poster.jpg",
       "title": "The Amateur",
-      "genre": ["Drama", "Thriller"],
-      "year": 2024,
-      "director": "Tommy Bertelsen",
+      "genre": ["Action", "Thriller"],
+      "year": 2025,
+      "director": "James Hawes",
       "cast": [
-        "William Moseley",
-        "Olivia Grace Applegate",
-        "Toni Trucks",
-        "John Lithgow"
+        "Rami Malek",
+        "Holt McCallany",
+        "Danny Sapani",
+        "Rachel Brosnahan"
       ],
-      "plot": "A young journalist discovers a conspiracy while investigating a political scandal and becomes caught in a web of intrigue and danger.",
+      "plot": "After his wife is killed in a London terrorist attack, a brilliant but introverted CIA decoder takes matters into his own hands when the agency refuses to act.",
       "rating": 3
     },
     {
       "id": 3,
       "poster": "images/film-posters/a-minecraft-movie-poster.jpg",
       "title": "A Minecraft Movie",
-      "genre": ["Adventure", "Animation", "Fantasy"],
+      "genre": ["Adventure", "Comedy", "Fantasy", "Family"],
       "year": 2025,
       "director": "Jared Hess",
-      "cast": ["Jack Black", "Jason Momoa", "Tati Gabrielle", "Awkwafina"],
-      "plot": "A group of explorers is sucked into the blocky world of Minecraft...",
-      "rating": 3
+      "cast": [
+        "Jason Momoa",
+        "Jack Black",
+        "Sebastian Eugene Hansen",
+        "Emma Myers"
+      ],
+      "plot": "Four misfits are pulled into the Overworld, a strange, blocky realm, and must team up with expert crafter Steve to find their way home.",
+      "rating": 2.5
     },
     {
       "id": 4,
       "poster": "images/film-posters/ballerina-poster.jpg",
-      "title": "Ballerina",
-      "genre": ["Action", "Thriller"],
-      "year": 2024,
+      "title": "From the World of John Wick: Ballerina",
+      "genre": ["Action", "Crime", "Thriller"],
+      "year": 2025,
       "director": "Len Wiseman",
       "cast": [
         "Ana de Armas",
-        "Lupita Nyong'o",
-        "James McAvoy",
-        "Jeffrey Dean Morgan"
+        "Anjelica Huston",
+        "Norman Reedus",
+        "Keanu Reeves"
       ],
-      "plot": "A former ballerina embarks on a mission of revenge against those who wronged her.",
-      "rating": 4
+      "plot": "During the events of John Wick: Chapter 3, Eve Macarro trains in the assassin ways of the Ruska Roma.",
+      "rating": 3
     },
     {
       "id": 5,
@@ -65,75 +70,85 @@
       "title": "Warfare",
       "genre": ["Action", "War"],
       "year": 2025,
-      "director": "Michael Bay",
-      "cast": ["Chris Hemsworth", "Zoe Saldana", "Gerard Butler", "Tom Hardy"],
-      "plot": "A group of soldiers are sent on a high-stakes mission during a global conflict...",
-      "rating": 2
+      "director": ["Ray Mendoza", "Alex Garland"],
+      "cast": [
+        "D’Pharaoh Woon-A-Tai",
+        "Will Poulter",
+        "Cosmo Jarvis",
+        "Kit Connor"
+      ],
+      "plot": "A Navy SEAL platoon’s surveillance mission goes wrong in hostile territory, unfolding in real time as a true story of warfare and brotherhood.",
+      "rating": 3.5
     },
     {
       "id": 6,
       "poster": "images/film-posters/mickey-17-poster.jpg",
       "title": "Mickey 17",
-      "genre": ["Sci-Fi", "Thriller"],
+      "genre": ["Adventure", "Comedy", "Sci-Fi"],
       "year": 2025,
       "director": "Bong Joon-ho",
       "cast": [
         "Robert Pattinson",
-        "Tilda Swinton",
+        "Naomi Ackie",
         "Steven Yeun",
-        "Hannah John-Kamen"
+        "Mark Ruffalo"
       ],
-      "plot": "Colonists on a distant planet must rely on a man whose mind is constantly reset.",
-      "rating": 4
+      "plot": "Unlikely hero Mickey Barnes lands a job where dying is just part of the job description.",
+      "rating": 3.5
     },
     {
       "id": 7,
       "poster": "images/film-posters/snow-white-poster.jpg",
       "title": "Snow White",
-      "genre": ["Fantasy", "Adventure", "Family"],
-      "year": 2024,
+      "genre": ["Fantasy", "Family"],
+      "year": 2025,
       "director": "Marc Webb",
-      "cast": ["Rachel Zegler", "Gal Gadot", "Andrew Burnap", "Toni Collette"],
-      "plot": "A reimagining of the classic Snow White tale...",
-      "rating": 3
+      "cast": ["Rachel Zegler", "Gal Gadot", "Andrew Burnap", "Jeremy Swift"],
+      "plot": "After the benevolent King vanishes, Princess Snow White flees the Evil Queen’s wrath and, with seven magical dwarves and a young bandit named Jonathan, fights to reclaim the kingdom.",
+      "rating": 2
     },
     {
       "id": 8,
       "poster": "images/film-posters/black-bag-poster.jpg",
       "title": "Black Bag",
-      "genre": ["Mystery", "Thriller"],
-      "year": 2024,
-      "director": "Peter Berg",
-      "cast": ["Ryan Reynolds", "Julia Roberts", "Ben Affleck", "Oscar Isaac"],
-      "plot": "A mysterious black bag contains a secret that threatens to unravel lives...",
-      "rating": 4
+      "genre": ["Drama", "Mystery", "Thriller"],
+      "year": 2025,
+      "director": "Steven Soderbergh",
+      "cast": [
+        "Cate Blanchett",
+        "Michael Fassbender",
+        "Tom Burke",
+        "Marisa Abela"
+      ],
+      "plot": "When agent Kathryn Woodhouse is accused of treason, her husband must choose between loyalty to his country or to his wife.",
+      "rating": 3.5
     },
     {
       "id": 9,
       "poster": "images/film-posters/sinners-poster.jpg",
       "title": "Sinners",
-      "genre": ["Horror", "Mystery"],
+      "genre": ["Action", "Thriller", "Horror"],
       "year": 2025,
       "director": "Ryan Coogler",
       "cast": [
         "Michael B. Jordan",
-        "Tessa Thompson",
-        "Lakeith Stanfield",
-        "Sterling K. Brown"
+        "Miles Caton",
+        "Hailee Steinfeld",
+        "Wunmi Mosaku"
       ],
-      "plot": "Detectives investigate gruesome crimes tied to the seven deadly sins.",
+      "plot": "Twin brothers return home to escape their past, only to find a greater evil awaiting them.",
       "rating": 4
     },
     {
       "id": 10,
       "poster": "images/film-posters/mission-impossible-the-final-reckoning-poster.jpg",
-      "title": "Mission Impossible: The Final Reckoning",
-      "genre": ["Action", "Thriller", "Adventure"],
+      "title": "Mission: Impossible – The Final Reckoning",
+      "genre": ["Action", "Adventure", "Thriller"],
       "year": 2025,
       "director": "Christopher McQuarrie",
-      "cast": ["Tom Cruise", "Rebecca Ferguson", "Simon Pegg", "Ving Rhames"],
-      "plot": "Ethan Hunt races against time to prevent a global catastrophe.",
-      "rating": 5
+      "cast": ["Tom Cruise", "Hayley Atwell", "Ving Rhames", "Simon Pegg"],
+      "plot": "Ethan Hunt and the IMF team race against time to stop the AI known as the Entity, which has infiltrated global intelligence networks, while being pursued by governments and a ghost from Ethan’s past.",
+      "rating": 3
     }
   ]
 }
