@@ -19,6 +19,7 @@
     />
 
     <script src="js/main.js" defer></script>
+    <script src="js/films.js" defer></script>
     <script src="js/film-detail.js" defer></script>
   </head>
   <body>
@@ -43,6 +44,20 @@
       </nav>
     </header>
     <main>
+      <div id="film-container">
+        <img id="film-poster" />
+        <div id="film-summary">
+          <div class="film-header">
+            <h1 id="film-title"></h1>
+            <p id="year"></p>
+            <p id="genre"></p>
+          </div>
+          <p id="film-director"></p>
+          <p id="film-plot"></p>
+          <p>Cast</p>
+          <ul id="film-cast"></ul>
+        </div>
+      </div>
       <h2 id="title-comments">Comments</h2>
       <div id="comment-section">
         <div id="comments-container"></div>

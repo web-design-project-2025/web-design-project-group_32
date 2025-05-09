@@ -14,7 +14,7 @@ function loadPopularSearches() {
       for (let film of data.films.slice(0, 7)) {
         const filmPosterElement = document.createElement("div");
         filmPosterElement.innerHTML = `
-          <img class="film-poster" src="${film.poster}">
+          <a href="film-detail.html?id=${film.id}"><img class="film-poster" src="${film.poster}"></a>
           <div class="star-container">
           </div>
           `;
@@ -106,7 +106,7 @@ function displayFilms(films) {
   films.forEach((film) => {
     const filmPosterElement = document.createElement("div");
     filmPosterElement.innerHTML = `
-    <img class="film-poster" src="${film.poster}">
+    <a href="film-detail.html?id=${film.id}"><img class="film-poster" src="${film.poster}"></a>
     <div class="star-container">
     </div>`;
 

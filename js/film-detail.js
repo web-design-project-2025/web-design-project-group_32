@@ -39,3 +39,46 @@ fetch("../data/comments.json")
       container.appendChild(commentDiv);
     });
   });
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("../data/films.json")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("HTTP error! Status:${response.status}");
+      }
+      return response.json();
+    })
+    .then((data) => {
+      const filmsData = data.films;
+      const params = new URLSearchParams(window.location.search);
+      const filmId = params.get("id");
+
+      if (!filmId) {
+        document.getElementById("film-container").innerHTML =
+          "<p>Film not found! </p>";
+        return;
+      }
+
+      const film = filmsData.find((f) => f.id.toString() === filmId.toString());
+      if (film) {
+        document.getElementById("film-title").textContent = film.title;
+        document.getElementById("year").textContent = "(" + film.year + ")";
+        document.getElementById("genre").textContent = film.genre;
+        document.getElementById("film-director").textContent =
+          "Directed by" + film.director;
+        document.getElementById("film-plot").textContent = film.plot;
+        document.getElementById("film-poster").src = film.poster;
+
+        const castList = document.getElementById("film-cast");
+        castList.innerHTML = "";
+        film.cast.forEach((actor) => {
+          const li = document.createElement("li");
+          li.textContent = actor;
+          castList.appendChild(li);
+        });
+      } else {
+        document.getElementById("film-container").innerHTML =
+          "<p>Film not found!</p>";
+      }
+    });
+});

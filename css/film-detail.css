@@ -72,3 +72,64 @@
 .star {
   height: 1rem;
 }
+
+#film-poster {
+  width: 40%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+#film-container {
+  box-sizing: border-box;
+  width: 65%;
+  display: flex;
+  margin: 1rem auto 2rem auto;
+  max-width: 42rem;
+}
+.film-header {
+  display: flex;
+  height: auto;
+  width: 100%;
+  height: auto;
+}
+
+#film-title {
+  overflow: hidden;
+  height: 100%;
+  margin-top: 0.2rem;
+  width: 60%;
+}
+
+#year {
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 12%;
+}
+
+#genre {
+  height: auto;
+  width: 25%;
+  overflow-wrap: break-word;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+#film-summary {
+  width: 60%;
+  height: 100%;
+  padding-left: 0.5rem;
+}
+#film-director {
+  height: auto;
+  width: 100%;
+}
+
+#film-plot {
+  width: 10 0%;
+  height: auto;
+}
+
+#film-cast {
+  list-style: none;
+  width: 100%;
+}
