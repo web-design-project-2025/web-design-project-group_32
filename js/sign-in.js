@@ -1,7 +1,3 @@
-const messageDivisionElement = document.getElementById(
-  "sign-in-message-division"
-);
-const messageElement = document.getElementById("sign-in-message");
 const submitElement = document.getElementById("sign-in-button");
 
 const inputFields = document.querySelectorAll("#sign-in input");
@@ -26,14 +22,15 @@ usernameInput.addEventListener("input", checkInputs);
 passwordInput.addEventListener("input", checkInputs);
 
 submitElement.addEventListener("click", function () {
-  messageElement.innerHTML = "You've signed in successfully.";
-  messageDivisionElement.style.backgroundColor = "#009900";
+  const messageBox = document.createElement("div");
+  messageBox.textContent = "You've signed in successfully.";
+  messageBox.classList.add("message-box-sign-in");
+  document.body.appendChild(messageBox);
 
   localStorage.setItem("isSignedIn", "true");
 
   setTimeout(() => {
-    messageElement.innerHTML = "";
-    messageDivisionElement.style.backgroundColor = "transparent";
+    messageBox.remove();
     window.location.href = "index.html";
-  }, 2000);
+  }, 3000);
 });

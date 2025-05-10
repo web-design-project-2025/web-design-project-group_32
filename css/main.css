@@ -72,6 +72,29 @@ header a {
   display: none;
 }
 
+.message-box-sign-out {
+  position: fixed;
+  top: 6rem;
+  right: 3rem;
+  padding: 10px 30px;
+  background-color: #cc0000;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8);
+}
+
+.message-box-sign-in {
+  position: fixed;
+  top: 6rem;
+  right: 3rem;
+  padding: 10px 30px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8);
+}
+
+
 /* If the screen is zoomed out change the menu style */
 @media screen and (max-width: 700px) {
   /* The nav bar on mobile */

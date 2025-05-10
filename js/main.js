@@ -56,14 +56,7 @@ const message = localStorage.getItem("signedOutMessage");
 if (message) {
   const messageBox = document.createElement("div");
   messageBox.textContent = message;
-  messageBox.style.position = "fixed";
-  messageBox.style.top = "6rem";
-  messageBox.style.right = "3rem";
-  messageBox.style.padding = "10px 30px";
-  messageBox.style.backgroundColor = "#cc0000";
-  messageBox.style.color = "white";
-  messageBox.style.borderRadius = "5px";
-  messageBox.style.boxShadow = "0 0 20px 10px rgba(0, 0, 0, 0.8)";
+  messageBox.classList.add("message-box-sign-out");
   document.body.appendChild(messageBox);
 
   setTimeout(() => {
