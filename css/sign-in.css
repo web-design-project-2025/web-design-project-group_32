@@ -23,6 +23,8 @@ main {
 #sign-in-background {
   height: 100%;
   width: 40%;
+  display: flex;
+
 }
 
 #sign-in-background img {
@@ -37,7 +39,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 #sign-in-button:disabled {
@@ -56,6 +58,7 @@ main {
   max-width: 26rem;
   min-width: 25rem;
   padding: 0.7rem 2rem 0.7rem 2rem;
+  margin: 5rem 0;
 }
 
 /* Sign in box layout */

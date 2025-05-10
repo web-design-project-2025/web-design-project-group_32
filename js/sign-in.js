@@ -1,4 +1,6 @@
-const messageDivisionElement = document.getElementById("sign-in-message-division");
+const messageDivisionElement = document.getElementById(
+  "sign-in-message-division"
+);
 const messageElement = document.getElementById("sign-in-message");
 const submitElement = document.getElementById("sign-in-button");
 
@@ -26,6 +28,8 @@ passwordInput.addEventListener("input", checkInputs);
 submitElement.addEventListener("click", function () {
   messageElement.innerHTML = "You've signed in successfully.";
   messageDivisionElement.style.backgroundColor = "#009900";
+
+  localStorage.setItem("isSignedIn", "true");
 
   setTimeout(() => {
     messageElement.innerHTML = "";
