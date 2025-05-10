@@ -284,6 +284,231 @@
       ],
       "plot": "A hunter stumbles upon a drug deal gone wrong and takes a suitcase of cash, setting off a violent chain of events as a relentless hitman pursues him.",
       "rating": 4.5
+    },
+    {
+      "id": 21,
+      "poster": "images/film-posters/the-matrix-poster.jpg",
+      "title": "The Matrix",
+      "genre": ["Action", "Sci-Fi"],
+      "year": 1999,
+      "director": ["Lana Wachowski", "Lilly Wachowski"],
+      "cast": [
+        "Keanu Reeves",
+        "Laurence Fishburne",
+        "Carrie-Anne Moss",
+        "Hugo Weaving"
+      ],
+      "plot": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+      "rating": 4
+    },
+    {
+      "id": 22,
+      "poster": "images/film-posters/the-truman-show-poster.jpg",
+      "title": "The Truman Show",
+      "genre": ["Drama", "Comedy"],
+      "year": 1998,
+      "director": "Peter Weir",
+      "cast": [
+        "Jim Carrey",
+        "Laura Linney",
+        "Noah Emmerich",
+        "Natascha McElhone"
+      ],
+      "plot": "An insurance salesman discovers his entire life is actually a television show broadcast to the world.",
+      "rating": 4
+    },
+    {
+      "id": 23,
+      "poster": "images/film-posters/se7en-poster.jpg",
+      "title": "Se7en",
+      "genre": ["Crime", "Drama", "Mystery", "Thriller"],
+      "year": 1995,
+      "director": "David Fincher",
+      "cast": [
+        "Morgan Freeman",
+        "Brad Pitt",
+        "Gwyneth Paltrow",
+        "Kevin Spacey"
+      ],
+      "plot": "Two detectives hunt a serial killer who uses the seven deadly sins as his motives.",
+      "rating": 4.5
+    },
+    {
+      "id": 24,
+      "poster": "images/film-posters/forrest-gump-poster.jpg",
+      "title": "Forrest Gump",
+      "genre": ["Drama", "Romance", "Comedy"],
+      "year": 1994,
+      "director": "Robert Zemeckis",
+      "cast": ["Tom Hanks", "Robin Wright", "Gary Sinise", "Sally Field"],
+      "plot": "The life journey of Forrest Gump, a slow-witted but kind-hearted man from Alabama, as he unwittingly influences historical events.",
+      "rating": 4
+    },
+    {
+      "id": 25,
+      "poster": "images/film-posters/the-shawshank-redemption-poster.jpg",
+      "title": "The Shawshank Redemption",
+      "genre": ["Drama", "Crime"],
+      "year": 1994,
+      "director": "Frank Darabont",
+      "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"],
+      "plot": "Two imprisoned men bond over several years, finding solace and eventual redemption through acts of common decency.",
+      "rating": 4.5
+    },
+    {
+      "id": 26,
+      "poster": "images/film-posters/rain-man-poster.jpg",
+      "title": "Rain Man",
+      "genre": ["Drama"],
+      "year": 1988,
+      "director": "Barry Levinson",
+      "cast": [
+        "Dustin Hoffman",
+        "Tom Cruise",
+        "Valeria Golino",
+        "Gerald R. Molen"
+      ],
+      "plot": "A self-centered man discovers his estranged brother is an autistic savant and takes him on a cross-country journey.",
+      "rating": 4
+    },
+    {
+      "id": 27,
+      "poster": "images/film-posters/my-neighbor-totoro-poster.jpg",
+      "title": "My Neighbor Totoro",
+      "genre": ["Animation", "Family", "Fantasy"],
+      "year": 1988,
+      "director": "Hayao Miyazaki",
+      "cast": [
+        "Noriko Hidaka",
+        "Chika Sakamoto",
+        "Hitoshi Takagi",
+        "Shigesato Itoi"
+      ],
+      "plot": "Two girls move to the countryside and discover friendly forest spirits, including a giant creature named Totoro.",
+      "rating": 4
+    },
+    {
+      "id": 28,
+      "poster": "images/film-posters/raiders-of-the-lost-ark-poster.jpg",
+      "title": "Raiders of the Lost Ark",
+      "genre": ["Action", "Adventure"],
+      "year": 1981,
+      "director": "Steven Spielberg",
+      "cast": [
+        "Harrison Ford",
+        "Karen Allen",
+        "Paul Freeman",
+        "John Rhys-Davies"
+      ],
+      "plot": "Archaeologist Indiana Jones races to find the Ark of the Covenant before the Nazis can harness its power.",
+      "rating": 4
+    },
+    {
+      "id": 29,
+      "poster": "images/film-posters/raging-bull-poster.jpg",
+      "title": "Raging Bull",
+      "genre": ["Drama", "Sport"],
+      "year": 1980,
+      "director": "Martin Scorsese",
+      "cast": [
+        "Robert De Niro",
+        "Cathy Moriarty",
+        "Joe Pesci",
+        "Frank Vincent"
+      ],
+      "plot": "The story of Jake LaMotta, a troubled boxer whose violence and temper destroyed his relationships both inside and outside the ring.",
+      "rating": 4
+    },
+    {
+      "id": 30,
+      "poster": "images/film-posters/the-shining-poster.jpg",
+      "title": "The Shining",
+      "genre": ["Thriller", "Horror"],
+      "year": 1980,
+      "director": "Stanley Kubrick",
+      "cast": [
+        "Jack Nicholson",
+        "Shelley Duvall",
+        "Danny Lloyd",
+        "Scatman Crothers"
+      ],
+      "plot": "A family heads to an isolated hotel for the winter where an evil presence drives the father into violence.",
+      "rating": 4
+    },
+    {
+      "id": 31,
+      "poster": "images/film-posters/alien-poster.jpg",
+      "title": "Alien",
+      "genre": ["Horror", "Sci-Fi"],
+      "year": 1979,
+      "director": "Ridley Scott",
+      "cast": [
+        "Sigourney Weaver",
+        "Tom Skerritt",
+        "John Hurt",
+        "Harry Dean Stanton"
+      ],
+      "plot": "A commercial space crew encounters a deadly alien creature after investigating a distress signal on a distant planet.",
+      "rating": 4.5
+    },
+    {
+      "id": 32,
+      "poster": "images/film-posters/star-wars-poster.jpg",
+      "title": "Star Wars",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "year": 1977,
+      "director": "George Lucas",
+      "cast": [
+        "Mark Hamill",
+        "Harrison Ford",
+        "Carrie Fisher",
+        "Alec Guinness"
+      ],
+      "plot": "A farm boy joins a rebellion to save the galaxy from the oppressive Empire and its powerful weapon.",
+      "rating": 4
+    },
+    {
+      "id": 33,
+      "poster": "images/film-posters/taxi-driver-poster.jpg",
+      "title": "Taxi Driver",
+      "genre": ["Crime", "Drama"],
+      "year": 1976,
+      "director": "Martin Scorsese",
+      "cast": [
+        "Robert De Niro",
+        "Jodie Foster",
+        "Cybill Shepherd",
+        "Harvey Keitel"
+      ],
+      "plot": "A mentally unstable Vietnam War veteran becomes a taxi driver in New York City, descending into violence and obsession.",
+      "rating": 4
+    },
+    {
+      "id": 34,
+      "poster": "images/film-posters/jaws-poster.jpg",
+      "title": "Jaws",
+      "genre": ["Adventure", "Thriller", "Horror"],
+      "year": 1975,
+      "director": "Steven Spielberg",
+      "cast": [
+        "Roy Scheider",
+        "Robert Shaw",
+        "Richard Dreyfuss",
+        "Lorraine Gary"
+      ],
+      "plot": "A killer shark terrorizes a beach town, and a police chief teams up with a marine biologist and a fisherman to stop it.",
+      "rating": 4
+    },
+    {
+      "id": 35,
+      "poster": "images/film-posters/the-godfather-poster.jpg",
+      "title": "The Godfather",
+      "genre": ["Crime", "Drama"],
+      "year": 1972,
+      "director": "Francis Ford Coppola",
+      "cast": ["Marlon Brando", "Al Pacino", "James Caan", "Robert Duvall"],
+      "plot": "The aging patriarch of a powerful crime family transfers control of his empire to his reluctant son.",
+      "rating": 4.5
     }
   ]
 }
