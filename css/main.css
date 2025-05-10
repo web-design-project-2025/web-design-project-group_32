@@ -72,17 +72,7 @@ header a {
   display: none;
 }
 
-.message-box-sign-out {
-  position: fixed;
-  top: 6rem;
-  right: 3rem;
-  padding: 10px 30px;
-  background-color: #cc0000;
-  color: white;
-  border-radius: 5px;
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8);
-}
-
+/* message box style for sign-in */
 .message-box-sign-in {
   position: fixed;
   top: 6rem;
@@ -94,6 +84,17 @@ header a {
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8);
 }
 
+/* message box style for sign-out */
+.message-box-sign-out {
+  position: fixed;
+  top: 6rem;
+  right: 3rem;
+  padding: 10px 30px;
+  background-color: #cc0000;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8);
+}
 
 /* If the screen is zoomed out change the menu style */
 @media screen and (max-width: 700px) {
