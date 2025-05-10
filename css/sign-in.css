@@ -22,9 +22,7 @@ main {
 
 #sign-in-background {
   height: 100%;
-  width: 40%;
   display: flex;
-
 }
 
 #sign-in-background img {
@@ -39,7 +37,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 #sign-in-button:disabled {
@@ -126,6 +125,7 @@ main {
   #sign-in-container {
     width: 100%;
     margin-right: 0;
+    margin-left: 0;
   }
   #sign-in-message-division h1 {
     padding-left: 1rem;
