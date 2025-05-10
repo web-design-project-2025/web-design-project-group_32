@@ -23,7 +23,7 @@ main {
 
 #sign-in-background {
   height: 100%;
-  display: flex;
+  width: 40%;
 }
 
 #sign-in-background img {

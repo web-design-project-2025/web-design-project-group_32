@@ -1,4 +1,4 @@
-// Set up burgerMenu from Sean
+// Burger Menu Toggle
 
 const burgerMenu = document.getElementById("burgermenu");
 const mobileMenu = document.getElementById("mobileMenu");
@@ -8,7 +8,8 @@ burgerMenu.addEventListener("click", () => {
   mobileMenu.classList.toggle("show");
 });
 
-// HeroSection images
+//Hero Section and related functionality
+
 function loadHandler() {
   const images = [
     "hero-image-1.jpg",
@@ -36,39 +37,38 @@ function loadHandler() {
 
 document.addEventListener("DOMContentLoaded", loadHandler);
 
-window.addEventListener("DOMContentLoaded", () => {
-  const signInLink = document.getElementById("signInLink");
-  const isSignedIn = localStorage.getItem("isSignedIn") === "true";
+//Sign In/Out Logic and Corresponding Functional Code
 
-  if (signInLink && isSignedIn) {
-    signInLink.textContent = "SIGN OUT";
-    signInLink.href = "#";
-    signInLink.addEventListener("click", () => {
-      localStorage.removeItem("isSignedIn");
-      localStorage.setItem("signedOutMessage", "You have been signed out.");
-      location.reload();
-    });
-  }
+const signInLink = document.getElementById("signInLink");
+const isSignedIn = localStorage.getItem("isSignedIn") === "true";
 
-  const message = localStorage.getItem("signedOutMessage");
-  if (message) {
-    const messageBox = document.createElement("div");
-    messageBox.textContent = message;
-    messageBox.style.position = "fixed";
-    messageBox.style.top = "80px";
-    messageBox.style.right = "80px";
-    messageBox.style.padding = "10px 30px";
-    messageBox.style.backgroundColor = "#cc0000";
-    messageBox.style.color = "white";
-    messageBox.style.borderRadius = "5px";
-    messageBox.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
-    messageBox.style.zIndex = "1000";
-    document.body.appendChild(messageBox);
+if (signInLink && isSignedIn) {
+  signInLink.textContent = "SIGN OUT";
+  signInLink.href = "#";
+  signInLink.addEventListener("click", () => {
+    localStorage.removeItem("isSignedIn");
+    localStorage.setItem("signedOutMessage", "You've signed out successfully.");
+    location.reload();
+  });
+}
 
-    setTimeout(() => {
-      messageBox.remove();
-    }, 3000);
+const message = localStorage.getItem("signedOutMessage");
+if (message) {
+  const messageBox = document.createElement("div");
+  messageBox.textContent = message;
+  messageBox.style.position = "fixed";
+  messageBox.style.top = "6rem";
+  messageBox.style.right = "3rem";
+  messageBox.style.padding = "10px 30px";
+  messageBox.style.backgroundColor = "#cc0000";
+  messageBox.style.color = "white";
+  messageBox.style.borderRadius = "5px";
+  messageBox.style.boxShadow = "0 0 20px 10px rgba(0, 0, 0, 0.8)";
+  document.body.appendChild(messageBox);
 
-    localStorage.removeItem("signedOutMessage");
-  }
-});
+  setTimeout(() => {
+    messageBox.remove();
+  }, 3000);
+
+  localStorage.removeItem("signedOutMessage");
+}
