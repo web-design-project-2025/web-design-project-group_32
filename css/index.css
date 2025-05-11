@@ -38,7 +38,7 @@ body {
   box-shadow: var(--button-box-shadow);
   width: 6rem;
   height: 2rem;
-  border-radius: 1rem;
+  border-radius: var(--button-border-radius);
   margin: auto;
 }
 

@@ -13,6 +13,9 @@ html {
   --sign-in-bg-color: green; /* Background color for the message box of sign-in */
   --sign-out-bg-color: red; /* Background color for the message box of sign-out */
 
+  /* Borders */
+  --button-border-radius: 0.5rem;
+
   /* Shadows */
   --header-box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #2b2b2b; /* Drop shadow for the header */
   --film-poster-box-shadow: 0.1rem 0.1rem 1rem 0.4rem #2b2b2b; /* Drop shadow for the film posters */

@@ -1,6 +1,7 @@
 main {
   box-sizing: border-box;
 }
+
 #filters {
   display: flex;
   flex-direction: row;
@@ -24,9 +25,9 @@ main {
   margin: auto 1rem;
   background-color: var(--button-bg-color);
   border: 0.1rem solid var(--button-bg-color);
+  border-radius: var(--button-border-radius);
   box-shadow: var(--button-box-shadow);
   color: var(--text-color);
-  border-radius: 0.4rem;
   padding: 0.2rem;
 }
 
