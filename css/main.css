@@ -8,6 +8,8 @@ html {
   --footer-bg-color: #515151; /* Background color for footer */
   --text-color: #ffffff; /* Text color for general content */
   --button-bg-color: #bd0c47; /* Background color for buttons */
+  --button-bg-color-hover: #9e0a3c; /* Darker background color for buttons hover state */
+  --button-bg-color-disabled: #333131; /* Background color for when a button is disabled */
   --sign-in-bg-color: green; /* Background color for the message box of sign-in */
   --sign-out-bg-color: red; /* Background color for the message box of sign-out */
 

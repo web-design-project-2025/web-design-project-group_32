@@ -33,10 +33,16 @@ body {
   display: block;
   color: var(--text-color);
   background-color: var(--button-bg-color);
+  transition: background-color 0.1s ease-in-out;
   width: 6rem;
   height: 2rem;
   border-radius: 1rem;
   margin: auto;
+}
+
+#hero-section button:hover {
+  background-color: var(--button-bg-color-hover);
+  cursor: pointer;
 }
 
 #search-section {
@@ -53,11 +59,6 @@ body {
   margin-bottom: 1rem;
   min-width: 18rem;
   padding-left: 1rem;
-}
-
-#hero-section button:hover {
-  transform: scale(1.03);
-  cursor: pointer;
 }
 
 /* Popular searches section */

@@ -29,9 +29,7 @@ main {
 }
 
 #sign-in-button:disabled {
-  background-color: #292626;
-  color: #fbf6f6;
-  cursor: not-allowed;
+  background-color: var(--button-bg-color-disabled);
   transform: none;
   pointer-events: none;
 }
@@ -92,15 +90,13 @@ main {
   height: 2rem;
   color: var(--text-color);
   background-color: var(--button-bg-color);
+  transition: background-color 0.1s ease-in-out;
   margin: 1rem 0 1rem 0;
   border-radius: 0.5rem;
 }
 
-#sign-in-button:hover,
-.register:hover,
-.forgot-password:hover {
-  transform: scale(1.04);
-  cursor: pointer;
+#sign-in-button:hover {
+  background-color: var(--button-bg-color-hover);
 }
 
 @media screen and (max-width: 840px) {
