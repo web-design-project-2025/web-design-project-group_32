@@ -10,7 +10,7 @@ burgerMenu.addEventListener("click", () => {
 
 //Sign In/Out Logic and Corresponding Functional Code
 
-const signInLink = document.getElementById("signInLink");
+const signInLink = document.getElementById("sign-in-link");
 const isSignedIn = localStorage.getItem("isSignedIn") === "true";
 
 if (signInLink && isSignedIn) {
@@ -27,7 +27,7 @@ const message = localStorage.getItem("signedOutMessage");
 if (message) {
   const messageBox = document.createElement("div");
   messageBox.textContent = message;
-  messageBox.classList.add("message-box-sign-out");
+  messageBox.classList.add("message-box", "mb-sign-out");
   document.body.appendChild(messageBox);
 
   setTimeout(() => {

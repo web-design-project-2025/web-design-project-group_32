@@ -24,7 +24,7 @@ passwordInput.addEventListener("input", checkInputs);
 submitElement.addEventListener("click", function () {
   const messageBox = document.createElement("div");
   messageBox.textContent = "You've signed in successfully.";
-  messageBox.classList.add("message-box-sign-in");
+  messageBox.classList.add("message-box", "mb-sign-in");
   document.body.appendChild(messageBox);
 
   localStorage.setItem("isSignedIn", "true");

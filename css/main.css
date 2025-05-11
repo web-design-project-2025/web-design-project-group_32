@@ -75,28 +75,24 @@ header a {
   display: none;
 }
 
-/* message box style for sign-in */
-.message-box-sign-in {
+/* message box style for sign-in and sign-out */
+.message-box {
   position: fixed;
   top: 6rem;
   right: 3rem;
-  padding: 10px 30px;
+  padding: 0.65rem 2rem;
   background-color: var(--sign-in-bg-color);
   color: var(--text-color);
   border-radius: 5px;
   box-shadow: var(--message-box-shadow);
 }
 
-/* message box style for sign-out */
-.message-box-sign-out {
-  position: fixed;
-  top: 6rem;
-  right: 3rem;
-  padding: 10px 30px;
+.mb-sign-in {
+  background-color: var(--sign-in-bg-color);
+}
+
+.mb-sign-out {
   background-color: var(--sign-out-bg-color);
-  color: var(--text-color);
-  border-radius: 5px;
-  box-shadow: var(--message-box-shadow);
 }
 
 /* If the screen is zoomed out change the menu style */
