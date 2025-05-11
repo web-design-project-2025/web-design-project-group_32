@@ -8,10 +8,13 @@ html {
   --footer-bg-color: #515151; /* Background color for footer */
   --text-color: #ffffff; /* Text color for general content */
   --button-bg-color: #bd0c47; /* Background color for buttons */
+  --sign-in-bg-color: green; /* Background color for the message box of sign-in */
+  --sign-out-bg-color: red; /* Background color for the message box of sign-out */
 
   /* Shadows */
   --header-box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #2b2b2b; /* Drop shadow for the header */
   --film-poster-box-shadow: 0.1rem 0.1rem 1rem 0.4rem #2b2b2b; /* Drop shadow for the film posters */
+  --message-box-shadow: 0.1rem 0.1rem 0.5rem 0.3rem #2b2b2b; /* Drop shadow for the message box of sign-in and sign-out */
 }
 
 body {
@@ -78,10 +81,10 @@ header a {
   top: 6rem;
   right: 3rem;
   padding: 10px 30px;
-  background-color: green;
-  color: white;
+  background-color: var(--sign-in-bg-color);
+  color: var(--text-color);
   border-radius: 5px;
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8);
+  box-shadow: var(--message-box-shadow);
 }
 
 /* message box style for sign-out */
@@ -90,10 +93,10 @@ header a {
   top: 6rem;
   right: 3rem;
   padding: 10px 30px;
-  background-color: #cc0000;
-  color: white;
+  background-color: var(--sign-out-bg-color);
+  color: var(--text-color);
   border-radius: 5px;
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8);
+  box-shadow: var(--message-box-shadow);
 }
 
 /* If the screen is zoomed out change the menu style */
