@@ -94,6 +94,7 @@
 }
 /* the rating under poster */
 .rating-section {
+  margin-top: 2rem;
   display: flex;
   height: 2rem;
 }
@@ -108,21 +109,29 @@
 }
 
 #trailer-button {
-  background-color: var(--button-bg-color);
-  border-radius: var(--button-border-radius);
-  color: var(--text-color);
   width: 5rem;
+  height:2rem;
   text-align: center;
+  color: var(--text-color);
+  background-color: var(--button-bg-color);
+  border: 0.1rem solid var(--button-bg-color);
   box-shadow: var(--button-box-shadow);
+  transition: background-color 0.1s ease-in-out;
+  margin: 1rem 0 1rem 0;
+  border-radius: var(--button-border-radius);
 }
 
 #favorite {
   width: 5rem;
+  height:2rem;
   text-align: center;
-  background-color: var(--button-bg-color);
   color: var(--text-color);
-  border-radius: var(--button-border-radius);
+  background-color: var(--button-bg-color);
+  border: 0.1rem solid var(--button-bg-color);
   box-shadow: var(--button-box-shadow);
+  transition: background-color 0.1s ease-in-out;
+  margin: 1rem 0 1rem 0;
+  border-radius: var(--button-border-radius);
 }
 
 #favorite:hover,
