@@ -15,7 +15,7 @@
       ],
       "plot": "Paddington travels to Peru, the country of his origins, where he embarks on a fun-filled adventure while trying to find a special gift for his Aunt Lucy’s birthday.",
       "rating": 3.5,
-      "trailer": "https://www.youtube.com/watch?v=NTvudSGfHRI"
+      "trailer": "https://www.youtube.com/embed/NTvudSGfHRI"
     },
     {
       "id": 2,
@@ -31,7 +31,8 @@
         "Rachel Brosnahan"
       ],
       "plot": "After his wife is killed in a London terrorist attack, a brilliant but introverted CIA decoder takes matters into his own hands when the agency refuses to act.",
-      "rating": 3
+      "rating": 3,
+      "trailer": "https://www.youtube.com/embed/DCWcK4c-F8Q"
     },
     {
       "id": 3,
@@ -47,7 +48,8 @@
         "Emma Myers"
       ],
       "plot": "Four misfits are pulled into the Overworld, a strange, blocky realm, and must team up with expert crafter Steve to find their way home.",
-      "rating": 2.5
+      "rating": 2.5,
+      "trailer": "https://www.youtube.com/embed/wJO_vIDZn-I"
     },
     {
       "id": 4,
@@ -63,7 +65,8 @@
         "Keanu Reeves"
       ],
       "plot": "During the events of John Wick: Chapter 3, Eve Macarro trains in the assassin ways of the Ruska Roma.",
-      "rating": 3
+      "rating": 3,
+      "trailer": "https://www.youtube.com/embed/0FSwsrFpkbw"
     },
     {
       "id": 5,
@@ -79,7 +82,8 @@
         "Kit Connor"
       ],
       "plot": "A Navy SEAL platoon’s surveillance mission goes wrong in hostile territory, unfolding in real time as a true story of warfare and brotherhood.",
-      "rating": 3.5
+      "rating": 3.5,
+      "trailer": "https://www.youtube.com/embed/JER0Fkyy3tw"
     },
     {
       "id": 6,
@@ -95,7 +99,8 @@
         "Mark Ruffalo"
       ],
       "plot": "Unlikely hero Mickey Barnes lands a job where dying is just part of the job description.",
-      "rating": 3.5
+      "rating": 3.5,
+      "trailer": "https://www.youtube.com/embed/osYpGSz_0i4"
     },
     {
       "id": 7,
@@ -106,7 +111,8 @@
       "director": "Marc Webb",
       "cast": ["Rachel Zegler", "Gal Gadot", "Andrew Burnap", "Jeremy Swift"],
       "plot": "After the benevolent King vanishes, Princess Snow White flees the Evil Queen’s wrath and, with seven magical dwarves and a young bandit named Jonathan, fights to reclaim the kingdom.",
-      "rating": 2
+      "rating": 2,
+      "trailer": "https://www.youtube.com/embed/iV46TJKL8cU"
     },
     {
       "id": 8,
@@ -122,7 +128,8 @@
         "Marisa Abela"
       ],
       "plot": "When agent Kathryn Woodhouse is accused of treason, her husband must choose between loyalty to his country or to his wife.",
-      "rating": 3.5
+      "rating": 3.5,
+      "trailer": "https://www.youtube.com/embed/Du0Xp8WX_7I"
     },
     {
       "id": 9,
@@ -138,7 +145,8 @@
         "Wunmi Mosaku"
       ],
       "plot": "Twin brothers return home to escape their past, only to find a greater evil awaiting them.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/bKGxHflevuk"
     },
     {
       "id": 10,
@@ -149,7 +157,8 @@
       "director": "Christopher McQuarrie",
       "cast": ["Tom Cruise", "Hayley Atwell", "Ving Rhames", "Simon Pegg"],
       "plot": "Ethan Hunt and the IMF team race against time to stop the AI known as the Entity, which has infiltrated global intelligence networks, while being pursued by governments and a ghost from Ethan’s past.",
-      "rating": 3
+      "rating": 3,
+      "trailer": "https://www.youtube.com/embed/fsQgc9pCyDU"
     },
     {
       "id": 11,
@@ -165,7 +174,8 @@
         "Choi Woo-shik"
       ],
       "plot": "A poor family schemes to become employed by a wealthy family by infiltrating their household and posing as unrelated, highly qualified individuals.",
-      "rating": 4.5
+      "rating": 4.5,
+      "trailer": "https://www.youtube.com/embed/SEUXfv87Wpk"
     },
     {
       "id": 12,
@@ -176,7 +186,8 @@
       "director": "Damien Chazelle",
       "cast": ["Ryan Gosling", "Emma Stone", "John Legend", "Rosemarie DeWitt"],
       "plot": "A jazz musician and an aspiring actress fall in love, but their dreams drive them in opposite directions.",
-      "rating": 4.5
+      "rating": 4.5,
+      "trailer": "https://www.youtube.com/embed/0pdqf4P9MB8"
     },
     {
       "id": 13,
@@ -192,7 +203,8 @@
         "Melissa Benoist"
       ],
       "plot": "A young drummer is pushed to the limit by an abusive instructor at a prestigious music conservatory.",
-      "rating": 4.5
+      "rating": 4.5,
+      "trailer": "https://www.youtube.com/embed/7d_jQycdQGo"
     },
     {
       "id": 14,
@@ -208,7 +220,8 @@
         "Kieran Culkin"
       ],
       "plot": "Scott Pilgrim must defeat his new girlfriend's seven evil exes in order to win her heart.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/7wd5KEaOtm4"
     },
     {
       "id": 15,
@@ -224,7 +237,8 @@
         "Josh Pence"
       ],
       "plot": "In 2003, Mark Zuckerberg creates Facebook. Six years later, his success leads to legal and personal troubles, including lawsuits from a former friend.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/lB95KLmpLR4"
     },
     {
       "id": 16,
@@ -235,7 +249,8 @@
       "director": ["Andrew Adamson, Vicky Jenson"],
       "cast": ["Mike Myers", "Eddie Murphy", "Cameron Diaz", "John Lithgow"],
       "plot": "A grumpy ogre sets out on a quest to rescue a princess, and along the way, he befriends a talkative donkey, all while discovering that true beauty comes from within.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/KbiwL74KyJQ"
     },
     {
       "id": 17,
@@ -246,7 +261,8 @@
       "director": "Peter Jackson",
       "cast": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen", "Sean Astin"],
       "plot": "A young hobbit, Frodo, is entrusted with the task of destroying a powerful ring that could bring doom to Middle-earth, accompanied by a diverse group of companions on an epic journey.",
-      "rating": 4.5
+      "rating": 4.5,
+      "trailer": "https://www.youtube.com/embed/V75dMMIW2B4"
     },
     {
       "id": 18,
@@ -257,7 +273,8 @@
       "director": ["Valerie Faris", "Jonathan Dayton"],
       "cast": ["Greg Kinnear", "Toni Collette", "Steve Carell", "Paul Dano"],
       "plot": "A dysfunctional family embarks on a cross-country road trip in order to support their daughter, who is competing in a beauty pageant, learning valuable lessons along the way.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/wvwVkllXT80"
     },
     {
       "id": 19,
@@ -268,7 +285,8 @@
       "director": "Brad Bird",
       "cast": ["Patton Oswalt", "Ian Holm", "Lou Romano", "Brian Dennehy"],
       "plot": "A rat named Remy dreams of becoming a chef in Paris and teams up with a young kitchen worker to create culinary masterpieces, overcoming obstacles along the way.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/NgsQ8mVkN8w"
     },
     {
       "id": 20,
@@ -284,7 +302,8 @@
         "Woody Harrelson"
       ],
       "plot": "A hunter stumbles upon a drug deal gone wrong and takes a suitcase of cash, setting off a violent chain of events as a relentless hitman pursues him.",
-      "rating": 4.5
+      "rating": 4.5,
+      "trailer": "https://www.youtube.com/embed/38A__WT3-o0"
     },
     {
       "id": 21,
@@ -300,7 +319,8 @@
         "Hugo Weaving"
       ],
       "plot": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/vKQi3bBA1y8"
     },
     {
       "id": 22,
@@ -316,7 +336,8 @@
         "Natascha McElhone"
       ],
       "plot": "An insurance salesman discovers his entire life is actually a television show broadcast to the world.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/dlnmQbPGuls"
     },
     {
       "id": 23,
@@ -332,7 +353,8 @@
         "Kevin Spacey"
       ],
       "plot": "Two detectives hunt a serial killer who uses the seven deadly sins as his motives.",
-      "rating": 4.5
+      "rating": 4.5,
+      "trailer": "https://www.youtube.com/embed/znmZoVkCjpI"
     },
     {
       "id": 24,
@@ -343,7 +365,8 @@
       "director": "Robert Zemeckis",
       "cast": ["Tom Hanks", "Robin Wright", "Gary Sinise", "Sally Field"],
       "plot": "The life journey of Forrest Gump, a slow-witted but kind-hearted man from Alabama, as he unwittingly influences historical events.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/bLvqoHBptjg"
     },
     {
       "id": 25,
@@ -354,7 +377,8 @@
       "director": "Frank Darabont",
       "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"],
       "plot": "Two imprisoned men bond over several years, finding solace and eventual redemption through acts of common decency.",
-      "rating": 4.5
+      "rating": 4.5,
+      "trailer": "https://www.youtube.com/embed/PLl99DlL6b4"
     },
     {
       "id": 26,
@@ -370,7 +394,8 @@
         "Gerald R. Molen"
       ],
       "plot": "A self-centered man discovers his estranged brother is an autistic savant and takes him on a cross-country journey.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/mlNwXuHUA8I"
     },
     {
       "id": 27,
@@ -386,7 +411,8 @@
         "Shigesato Itoi"
       ],
       "plot": "Two girls move to the countryside and discover friendly forest spirits, including a giant creature named Totoro.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/HaLISMAGdOE"
     },
     {
       "id": 28,
@@ -402,7 +428,8 @@
         "John Rhys-Davies"
       ],
       "plot": "Archaeologist Indiana Jones races to find the Ark of the Covenant before the Nazis can harness its power.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/0xQSIdSRlAk"
     },
     {
       "id": 29,
@@ -418,7 +445,8 @@
         "Frank Vincent"
       ],
       "plot": "The story of Jake LaMotta, a troubled boxer whose violence and temper destroyed his relationships both inside and outside the ring.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/F2UKuKxCJqc"
     },
     {
       "id": 30,
@@ -434,7 +462,8 @@
         "Scatman Crothers"
       ],
       "plot": "A family heads to an isolated hotel for the winter where an evil presence drives the father into violence.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/S014oGZiSdI"
     },
     {
       "id": 31,
@@ -450,7 +479,8 @@
         "Harry Dean Stanton"
       ],
       "plot": "A commercial space crew encounters a deadly alien creature after investigating a distress signal on a distant planet.",
-      "rating": 4.5
+      "rating": 4.5,
+      "trailer": "https://www.youtube.com/embed/jQ5lPt9edzQ"
     },
     {
       "id": 32,
@@ -466,7 +496,8 @@
         "Alec Guinness"
       ],
       "plot": "A farm boy joins a rebellion to save the galaxy from the oppressive Empire and its powerful weapon.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/sGbxmsDFVnE"
     },
     {
       "id": 33,
@@ -482,7 +513,8 @@
         "Harvey Keitel"
       ],
       "plot": "A mentally unstable Vietnam War veteran becomes a taxi driver in New York City, descending into violence and obsession.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/T5IligQP7Fo"
     },
     {
       "id": 34,
@@ -498,7 +530,8 @@
         "Lorraine Gary"
       ],
       "plot": "A killer shark terrorizes a beach town, and a police chief teams up with a marine biologist and a fisherman to stop it.",
-      "rating": 4
+      "rating": 4,
+      "trailer": "https://www.youtube.com/embed/WKuZJjPSLXQ"
     },
     {
       "id": 35,
@@ -509,7 +542,8 @@
       "director": "Francis Ford Coppola",
       "cast": ["Marlon Brando", "Al Pacino", "James Caan", "Robert Duvall"],
       "plot": "The aging patriarch of a powerful crime family transfers control of his empire to his reluctant son.",
-      "rating": 4.5
+      "rating": 4.5,
+      "trailer": "https://www.youtube.com/embed/sY1S34973zA"
     }
   ]
 }

@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (film.trailer) {
               const trailerUrl = `trailer.html?video=${encodeURIComponent(
                 film.trailer
-              )}`;
+              )}&title=${encodeURIComponent(film.title)}`;
               window.location.href = trailerUrl;
             } else {
               alert("Trailer not available for this film.");
