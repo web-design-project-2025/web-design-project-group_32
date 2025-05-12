@@ -74,35 +74,85 @@
 }
 
 #poster-container {
-  border: white 1px solid;
   height: 100%;
   width: 40%;
 }
+
 #film-poster {
   width: 100%;
-  height: 80%;
+  height: 10%;
   object-fit: cover;
   border-radius: 1rem;
-  border: 1px white solid;
 }
+/* the rating under poster */
+.rating-section {
+  display: flex;
+  height: 2rem;
+}
+
+#rating-img {
+  margin: auto 0 auto auto;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#rating-number {
+  font-size: 1.2rem;
+  margin: auto auto auto 0.1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#trailer-button {
+  background-color: var(--button-bg-color);
+  border-radius: var(--button-border-radius);
+  color: var(--text-color);
+  width: 5rem;
+  text-align: center;
+  box-shadow: var(--button-box-shadow);
+}
+
+#favorite {
+  width: 5rem;
+  text-align: center;
+  background-color: var(--button-bg-color);
+  color: var(--text-color);
+  border-radius: var(--button-border-radius);
+  box-shadow: var(--button-box-shadow);
+}
+
+#favorite:hover,
+#trailer-button:hover {
+  background-color: var(--button-bg-color-hover);
+  cursor: pointer;
+}
+/* The container of film */
 #film-container {
   box-sizing: border-box;
   width: 65%;
   display: flex;
   margin: 1rem auto 2rem auto;
   max-width: 42rem;
-  border: white 1px solid;
+  min-height: 30rem;
 }
+
 .film-header {
   display: flex;
   height: auto;
   width: 100%;
   margin-bottom: 0;
-  border: white 1px solid;
 }
 
 #film-title {
   overflow: hidden;
+  font-family: var(--secondary-font);
   height: 100%;
   margin-top: 0.2rem;
   width: 80%;
@@ -121,7 +171,7 @@
   height: auto;
   width: 100%;
   overflow-wrap: break-word;
-  text-align: right;
+  text-align: left;
   font-weight: 600;
   margin: 0.5rem 0 0 0;
 }
@@ -130,7 +180,9 @@
   width: 60%;
   height: 100%;
   padding-left: 0.5rem;
-  border: white 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #film-director {
@@ -148,4 +200,46 @@
 #film-cast {
   list-style: none;
   width: 100%;
+}
+
+@media screen and (max-width: 1030px) {
+  #film-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #poster-container {
+    margin: 0 auto 0 auto;
+    min-width: 20rem;
+  }
+  #film-summary {
+    margin: 0 auto 0 auto;
+    min-width: 30rem;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  #poster-container {
+    margin: 0 auto 0 auto;
+  }
+
+  #film-poster {
+    min-width: 20rem;
+  }
+  #film-summary {
+    margin: 0 auto 0 auto;
+    padding: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  #poster-container {
+    width: 100%;
+    min-width: unset;
+  }
+
+  #film-poster {
+    min-width: unset;
+  }
 }

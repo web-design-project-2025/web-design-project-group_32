@@ -95,6 +95,10 @@ function applyFilters() {
       filteredFilms = filteredFilms.filter(
         (film) => film.year >= 2000 && film.year < 2010
       );
+    } else if (year === "1900s") {
+      filteredFilms = filteredFilms.filter(
+        (film) => film.year >= 1900 && film.year < 2000
+      );
     }
   }
   displayFilms(filteredFilms);

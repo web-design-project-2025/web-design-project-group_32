@@ -69,6 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
           "Directed by" + film.director;
         document.getElementById("film-plot").textContent = film.plot;
         document.getElementById("film-poster").src = film.poster;
+        document.getElementById("rating-number").textContent =
+          film.rating + "/5";
 
         const castList = document.getElementById("film-cast");
         castList.innerHTML = "";
@@ -77,9 +79,27 @@ document.addEventListener("DOMContentLoaded", () => {
           li.textContent = actor;
           castList.appendChild(li);
         });
+
+        document
+          .getElementById("trailer-button")
+          .addEventListener("click", () => {
+            if (film.trailer) {
+              const trailerUrl = `trailer.html?video=${encodeURIComponent(
+                film.trailer
+              )}`;
+              window.location.href = trailerUrl;
+            } else {
+              alert("Trailer not available for this film.");
+            }
+          });
       } else {
         document.getElementById("film-container").innerHTML =
           "<p>Film not found!</p>";
       }
+    })
+    .catch((error) => {
+      document.getElementById(
+        "film-container"
+      ).innerHTML = `<p>Error loading film data.</p>`;
     });
 });

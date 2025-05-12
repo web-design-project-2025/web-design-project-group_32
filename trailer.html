@@ -8,9 +8,9 @@
       href="assets/icons/starview-favicon.svg"
       type="image/svg+xml"
     />
-    <title>STARVIEW | Films</title>
+    <title>STARVIEW</title>
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="/css/films.css" />
+    <link rel="stylesheet" href="css/trailer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,11 +19,12 @@
     />
     <script src="js/main.js" defer></script>
     <script src="js/films.js" defer></script>
+    <script src="js/trailer.js" defer></script>
   </head>
   <body>
     <header>
       <nav>
-        <!-- Logo and home page button -->
+        <!-- Logo image for the header and home page button -->
         <a class="logo" href="index.html"
           ><img src="images/starview-logo.png"
         /></a>
@@ -44,39 +45,11 @@
       </nav>
     </header>
     <main>
-      <div id="filters">
-        <h2 id="filters-title">SORT BY</h2>
-        <div id="select-section">
-          <select id="genre" onchange="applyFilters()">
-            <option value="" disabled selected>Genre</option>
-            <option value="all">All</option>
-            <option value="action">Action</option>
-            <option value="animation">Animation</option>
-            <option value="comedy">Comedy</option>
-            <option value="drama">Drama</option>
-            <option value="family">Family</option>
-            <option value="fantasy">Fantasy</option>
-            <option value="horror">Horror</option>
-            <option value="romance">Romance</option>
-            <option value="sci-fi">Sci-Fi</option>
-            <option value="war">War</option>
-          </select>
-          <select id="rating" onchange="applyFilters()">
-            <option value="" disabled selected>Rating</option>
-            <option value="highest">Highest</option>
-            <option value="lowest">Lowest</option>
-          </select>
-          <select id="year" onchange="applyFilters()">
-            <option value="" disabled selected>Year</option>
-            <option value="all">All</option>
-            <option value="2020s">2020s</option>
-            <option value="2010s">2010</option>
-            <option value="2000s">2000s</option>
-            <option value="1900s">1900s</option>
-          </select>
-        </div>
+      <div id="trailer-container">
+        <video id="trailer-video" controls>
+          <source id="trailer-source" src="" type="video/mp4" />
+        </video>
       </div>
-      <section id="films-gallery"></section>
     </main>
     <footer>
       <div id="footer-main-division">

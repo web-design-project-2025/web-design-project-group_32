@@ -1,0 +1,11 @@
+#trailer-video {
+  width: 80%;
+  height: 60%;
+  margin: 5rem auto 5rem auto;
+}
+
+#trailer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
