@@ -8,13 +8,19 @@ html {
   --footer-bg-color: #515151; /* Background color for footer */
   --text-color: #ffffff; /* Text color for general content */
   --button-bg-color: #bd0c47; /* Background color for buttons */
+  --button-bg-color-hover: #9e0a3c; /* Darker background color for buttons hover state */
+  --button-bg-color-disabled: #333131; /* Background color for when a button is disabled */
   --sign-in-bg-color: green; /* Background color for the message box of sign-in */
   --sign-out-bg-color: red; /* Background color for the message box of sign-out */
+
+  /* Borders */
+  --button-border-radius: 0.5rem;
 
   /* Shadows */
   --header-box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #2b2b2b; /* Drop shadow for the header */
   --film-poster-box-shadow: 0.1rem 0.1rem 1rem 0.4rem #2b2b2b; /* Drop shadow for the film posters */
   --message-box-shadow: 0.1rem 0.1rem 0.5rem 0.3rem #2b2b2b; /* Drop shadow for the message box of sign-in and sign-out */
+  --button-box-shadow: 0.1rem 0.1rem 0.5rem 0.01rem #2b2b2b; /* Drop shadow for buttons */
 }
 
 body {

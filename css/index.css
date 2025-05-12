@@ -32,11 +32,19 @@ body {
 #hero-section button {
   display: block;
   color: var(--text-color);
+  border: 0.1rem solid var(--button-bg-color);
   background-color: var(--button-bg-color);
+  transition: background-color 0.1s ease-in-out;
+  box-shadow: var(--button-box-shadow);
   width: 6rem;
   height: 2rem;
-  border-radius: 1rem;
+  border-radius: var(--button-border-radius);
   margin: auto;
+}
+
+#hero-section button:hover {
+  background-color: var(--button-bg-color-hover);
+  cursor: pointer;
 }
 
 #search-section {
@@ -53,11 +61,6 @@ body {
   margin-bottom: 1rem;
   min-width: 18rem;
   padding-left: 1rem;
-}
-
-#hero-section button:hover {
-  transform: scale(1.03);
-  cursor: pointer;
 }
 
 /* Popular searches section */
