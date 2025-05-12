@@ -69,8 +69,24 @@ document.addEventListener("DOMContentLoaded", () => {
           "Directed by" + film.director;
         document.getElementById("film-plot").textContent = film.plot;
         document.getElementById("film-poster").src = film.poster;
-        document.getElementById("rating-number").textContent =
-          film.rating + "/5";
+
+        const ratingSection = document.getElementById("rating-section");
+        const filmFullStar = Math.floor(film.rating);
+        const filmHalfStar = film.rating % 1 >= 0.5;
+        const filmEmptyStar = 5 - filmFullStar - (filmHalfStar ? 1 : 0);
+
+        let filmStarsHTML = `<span class="film-star">`;
+        for (let i = 0; i < filmFullStar; i++) {
+          filmStarsHTML += `<img src="../images/rating-system/star-rating-full.png" alt="full star" class="film-star">`;
+        }
+        if (filmHalfStar) {
+          filmStarsHTML += `<img src="../images/rating-system/star-rating-half.png" alt="half star" class="film-star">`;
+        }
+        for (let i = 0; i < filmEmptyStar; i++) {
+          filmStarsHTML += `<img src="../images/rating-system/star-rating-empty.png" alt="empty star" class="film-star">`;
+        }
+        filmStarsHTML += `</span>`;
+        ratingSection.innerHTML = filmStarsHTML;
 
         const castList = document.getElementById("film-cast");
         castList.innerHTML = "";

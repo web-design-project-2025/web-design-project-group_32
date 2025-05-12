@@ -78,6 +78,14 @@
   width: 40%;
 }
 
+.film-star {
+  height: 1.5rem;
+}
+
+#rating-section {
+  display: flex;
+  justify-content: center;
+}
 #film-poster {
   width: 100%;
   height: 10%;
@@ -88,17 +96,6 @@
 .rating-section {
   display: flex;
   height: 2rem;
-}
-
-#rating-img {
-  margin: auto 0 auto auto;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-#rating-number {
-  font-size: 1.2rem;
-  margin: auto auto auto 0.1rem;
 }
 
 .button-group {
