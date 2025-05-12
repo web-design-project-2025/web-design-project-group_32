@@ -19,7 +19,9 @@
     <header>
       <nav>
         <!-- Logo and home page button -->
-        <a class="logo" href="index.html"><img src="images/starview-logo.png" /></a>
+        <a class="logo" href="index.html"
+          ><img src="images/starview-logo.png"
+        /></a>
 
         <!-- It's the mobile menu button-->
         <div class="burgermenu" id="burgermenu">
@@ -31,7 +33,7 @@
         <!-- Nav bar -->
         <ul class="nav-links" id="mobileMenu">
           <li><a href="films.html">FILMS</a></li>
-          <li><a href="sign-in.html"id="sign-in-link">SIGN IN</a></li>
+          <li><a href="sign-in.html" id="sign-in-link">SIGN IN</a></li>
           <li><a href="profile.html">PROFILE</a></li>
         </ul>
       </nav>
@@ -44,8 +46,14 @@
             <option value="disabled selected">Genre</option>
             <option value="all">All</option>
             <option value="action">Action</option>
+            <option value="animation">Animation</option>
             <option value="comedy">Comedy</option>
+            <option value="drama">Drama</option>
+            <option value="family">Family</option>
+            <option value="fantasy">Fantasy</option>
             <option value="horror">Horror</option>
+            <option value="romance">Romance</option>
+            <option value="sci-fi">Sci-Fi</option>
             <option value="war">War</option>
           </select>
           <select id="rating" onchange="applyFilters()">
