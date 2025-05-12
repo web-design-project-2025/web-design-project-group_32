@@ -73,11 +73,17 @@
   height: 1rem;
 }
 
-#film-poster {
+#poster-container {
+  border: white 1px solid;
+  height: 100%;
   width: 40%;
+}
+#film-poster {
+  width: 100%;
   height: 80%;
   object-fit: cover;
   border-radius: 1rem;
+  border: 1px white solid;
 }
 #film-container {
   box-sizing: border-box;
@@ -85,47 +91,57 @@
   display: flex;
   margin: 1rem auto 2rem auto;
   max-width: 42rem;
+  border: white 1px solid;
 }
 .film-header {
   display: flex;
   height: auto;
   width: 100%;
-  height: auto;
+  margin-bottom: 0;
+  border: white 1px solid;
 }
 
 #film-title {
   overflow: hidden;
   height: 100%;
   margin-top: 0.2rem;
-  width: 60%;
+  width: 80%;
+  text-align: center;
+  font-size: 1.7rem;
 }
 
 #year {
-  height: 100%;
+  height: 50;
   margin-top: auto;
   margin-bottom: auto;
-  width: 12%;
+  width: 20%;
 }
 
 #genre {
   height: auto;
-  width: 25%;
+  width: 100%;
   overflow-wrap: break-word;
-  padding: 0 0.5rem 0 0.5rem;
+  text-align: right;
+  font-weight: 600;
+  margin: 0.5rem 0 0 0;
 }
 
 #film-summary {
   width: 60%;
   height: 100%;
   padding-left: 0.5rem;
+  border: white 1px solid;
 }
+
 #film-director {
   height: auto;
+  text-align: left;
   width: 100%;
+  margin-top: 0.5rem;
 }
 
 #film-plot {
-  width: 10 0%;
+  width: 100%;
   height: auto;
 }
 
