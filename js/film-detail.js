@@ -70,6 +70,24 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("film-plot").textContent = film.plot;
         document.getElementById("film-poster").src = film.poster;
 
+        const ratingSection = document.getElementById("rating-section");
+        const filmFullStar = Math.floor(film.rating);
+        const filmHalfStar = film.rating % 1 >= 0.5;
+        const filmEmptyStar = 5 - filmFullStar - (filmHalfStar ? 1 : 0);
+
+        let filmStarsHTML = `<span class="film-star">`;
+        for (let i = 0; i < filmFullStar; i++) {
+          filmStarsHTML += `<img src="../images/rating-system/star-rating-full.png" alt="full star" class="film-star">`;
+        }
+        if (filmHalfStar) {
+          filmStarsHTML += `<img src="../images/rating-system/star-rating-half.png" alt="half star" class="film-star">`;
+        }
+        for (let i = 0; i < filmEmptyStar; i++) {
+          filmStarsHTML += `<img src="../images/rating-system/star-rating-empty.png" alt="empty star" class="film-star">`;
+        }
+        filmStarsHTML += `</span>`;
+        ratingSection.innerHTML = filmStarsHTML;
+
         const castList = document.getElementById("film-cast");
         castList.innerHTML = "";
         film.cast.forEach((actor) => {
@@ -77,9 +95,27 @@ document.addEventListener("DOMContentLoaded", () => {
           li.textContent = actor;
           castList.appendChild(li);
         });
+
+        document
+          .getElementById("trailer-button")
+          .addEventListener("click", () => {
+            if (film.trailer) {
+              const trailerUrl = `trailer.html?video=${encodeURIComponent(
+                film.trailer
+              )}&title=${encodeURIComponent(film.title)}`;
+              window.location.href = trailerUrl;
+            } else {
+              alert("Trailer not available for this film.");
+            }
+          });
       } else {
         document.getElementById("film-container").innerHTML =
           "<p>Film not found!</p>";
       }
+    })
+    .catch((error) => {
+      document.getElementById(
+        "film-container"
+      ).innerHTML = `<p>Error loading film data.</p>`;
     });
 });

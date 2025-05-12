@@ -95,6 +95,18 @@ function applyFilters() {
       filteredFilms = filteredFilms.filter(
         (film) => film.year >= 2000 && film.year < 2010
       );
+    } else if (year === "1990s") {
+      filteredFilms = filteredFilms.filter(
+        (film) => film.year >= 1990 && film.year < 2000
+      );
+    } else if (year === "1980s") {
+      filteredFilms = filteredFilms.filter(
+        (film) => film.year >= 1980 && film.year < 1990
+      );
+    } else if (year === "1970s") {
+      filteredFilms = filteredFilms.filter(
+        (film) => film.year >= 1970 && film.year < 1980
+      );
     }
   }
   displayFilms(filteredFilms);

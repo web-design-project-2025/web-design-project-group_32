@@ -74,35 +74,91 @@
 }
 
 #poster-container {
-  border: white 1px solid;
   height: 100%;
   width: 40%;
 }
+
+.film-star {
+  height: 1.5rem;
+}
+
+#rating-section {
+  display: flex;
+  justify-content: center;
+}
 #film-poster {
   width: 100%;
-  height: 80%;
+  height: 10%;
   object-fit: cover;
   border-radius: 1rem;
-  border: 1px white solid;
 }
+/* the rating under poster */
+.rating-section {
+  margin-top: 2rem;
+  display: flex;
+  height: 2rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#trailer-button {
+  width: 5rem;
+  height:2rem;
+  text-align: center;
+  color: var(--text-color);
+  background-color: var(--button-bg-color);
+  border: 0.1rem solid var(--button-bg-color);
+  box-shadow: var(--button-box-shadow);
+  transition: background-color 0.1s ease-in-out;
+  margin: 1rem 0 1rem 0;
+  border-radius: var(--button-border-radius);
+}
+
+#favorite {
+  width: 5rem;
+  height:2rem;
+  text-align: center;
+  color: var(--text-color);
+  background-color: var(--button-bg-color);
+  border: 0.1rem solid var(--button-bg-color);
+  box-shadow: var(--button-box-shadow);
+  transition: background-color 0.1s ease-in-out;
+  margin: 1rem 0 1rem 0;
+  border-radius: var(--button-border-radius);
+}
+
+#favorite:hover,
+#trailer-button:hover {
+  background-color: var(--button-bg-color-hover);
+  cursor: pointer;
+}
+/* The container of film */
 #film-container {
   box-sizing: border-box;
   width: 65%;
   display: flex;
   margin: 1rem auto 2rem auto;
   max-width: 42rem;
-  border: white 1px solid;
+  min-height: 30rem;
 }
+
 .film-header {
   display: flex;
   height: auto;
   width: 100%;
   margin-bottom: 0;
-  border: white 1px solid;
 }
 
 #film-title {
   overflow: hidden;
+  font-family: var(--secondary-font);
   height: 100%;
   margin-top: 0.2rem;
   width: 80%;
@@ -121,7 +177,7 @@
   height: auto;
   width: 100%;
   overflow-wrap: break-word;
-  text-align: right;
+  text-align: left;
   font-weight: 600;
   margin: 0.5rem 0 0 0;
 }
@@ -130,7 +186,9 @@
   width: 60%;
   height: 100%;
   padding-left: 0.5rem;
-  border: white 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #film-director {
@@ -148,4 +206,46 @@
 #film-cast {
   list-style: none;
   width: 100%;
+}
+
+@media screen and (max-width: 1030px) {
+  #film-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #poster-container {
+    margin: 0 auto 0 auto;
+    min-width: 20rem;
+  }
+  #film-summary {
+    margin: 0 auto 0 auto;
+    min-width: 30rem;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  #poster-container {
+    margin: 0 auto 0 auto;
+  }
+
+  #film-poster {
+    min-width: 20rem;
+  }
+  #film-summary {
+    margin: 0 auto 0 auto;
+    padding: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  #poster-container {
+    width: 100%;
+    min-width: unset;
+  }
+
+  #film-poster {
+    min-width: unset;
+  }
 }

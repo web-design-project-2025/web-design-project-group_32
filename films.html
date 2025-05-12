@@ -48,7 +48,7 @@
         <h2 id="filters-title">SORT BY</h2>
         <div id="select-section">
           <select id="genre" onchange="applyFilters()">
-            <option value="disabled selected">Genre</option>
+            <option value="" disabled selected>Genre</option>
             <option value="all">All</option>
             <option value="action">Action</option>
             <option value="animation">Animation</option>
@@ -62,16 +62,19 @@
             <option value="war">War</option>
           </select>
           <select id="rating" onchange="applyFilters()">
-            <option value="disabled selected">Rating</option>
+            <option value="" disabled selected>Rating</option>
             <option value="highest">Highest</option>
             <option value="lowest">Lowest</option>
           </select>
           <select id="year" onchange="applyFilters()">
-            <option value="disabled selected">Year</option>
+            <option value="" disabled selected>Year</option>
             <option value="all">All</option>
             <option value="2020s">2020s</option>
             <option value="2010s">2010</option>
             <option value="2000s">2000s</option>
+            <option value="1990s">1990s</option>
+            <option value="1980s">1980s</option>
+            <option value="1970s">1970s</option>
           </select>
         </div>
       </div>

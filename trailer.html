@@ -8,29 +8,23 @@
       href="assets/icons/starview-favicon.svg"
       type="image/svg+xml"
     />
-    <title>STARVIEW | Film detail</title>
+    <title>STARVIEW</title>
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="/css/film-detail.css" />
+    <link rel="stylesheet" href="css/trailer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <!-- Rating star -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-
     <script src="js/main.js" defer></script>
     <script src="js/films.js" defer></script>
-    <script src="js/film-detail.js" defer></script>
+    <script src="js/trailer.js" defer></script>
   </head>
   <body>
     <header>
       <nav>
-        <!-- Logo and home page button -->
+        <!-- Logo image for the header and home page button -->
         <a class="logo" href="index.html"
           ><img src="images/starview-logo.png"
         /></a>
@@ -46,35 +40,21 @@
         <ul class="nav-links" id="mobileMenu">
           <li><a href="films.html">FILMS</a></li>
           <li><a href="sign-in.html" id="sign-in-link">SIGN IN</a></li>
-          <li><a href="#">PROFILE</a></li>
+          <li><a href="profile.html">PROFILE</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div id="film-container">
-        <div id="poster-container">
-          <img id="film-poster" />
-          <div id="rating-section"></div>
-          <div class="button-group">
-            <button id="trailer-button">Trailer</button>
-            <button id="favorite">Favorite</button>
-          </div>
-        </div>
-        <div id="film-summary">
-          <div class="film-header">
-            <h1 id="film-title"></h1>
-            <p id="year"></p>
-          </div>
-          <p id="genre"></p>
-          <p id="film-director"></p>
-          <p id="film-plot"></p>
-          <p>Cast</p>
-          <ul id="film-cast"></ul>
-        </div>
-      </div>
-      <h2 id="title-comments">Comments</h2>
-      <div id="comment-section">
-        <div id="comments-container"></div>
+      <h1 id="trailer-title"></h1>
+      <div id="trailer-container">
+        <iframe
+          id="trailer-iframe"
+          src=""
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
       </div>
     </main>
     <footer>
