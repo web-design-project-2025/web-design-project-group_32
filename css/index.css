@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
 }
 
-/* The hero section and the search bar */
+/* The hero section */
 #hero-section {
   min-height: 60vh;
   display: flex;
@@ -12,17 +12,29 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 2rem 2rem;
 }
 
-@media (max-width: 760px) {
-  #hero-section {
-    min-height: 15rem;
-    height: auto;
-    padding: 2rem 2rem;
-  }
+#search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-#hero-section button {
+/* Search bar */
+#search-bar {
+  width: 100%;
+  min-width: 15rem;
+  max-width: 26rem;
+  height: 1.8rem;
+  background-color: #ffffffd0;
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+#search-button {
   display: block;
   color: var(--text-color);
   border: 0.1rem solid var(--button-bg-color);
@@ -35,27 +47,9 @@ body {
   margin: auto;
 }
 
-#hero-section button:hover {
+#search-button:hover {
   background-color: var(--button-bg-color-hover);
   cursor: pointer;
-}
-
-#search-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-#search-bar {
-  width: 100%;
-  min-width: 15rem;
-  max-width: 26rem;
-  height: 1.8rem;
-  background-color: #ffffffd0;
-  border-radius: 0.4rem;
-  margin-bottom: 0.5rem;
 }
 
 #search-result {
@@ -83,29 +77,31 @@ body {
   box-shadow: var(--film-poster-box-shadow);
 }
 
+/* Media queries */
+/* Search result and popular searches */
 @media screen and (max-width: 1020px) {
-  #popular-searches {
+  #search-result {
     grid-template-areas: "img img img img img";
   }
-  #search-result {
+  #popular-searches {
     grid-template-areas: "img img img img img";
   }
 }
 
 @media screen and (max-width: 745px) {
-  #popular-searches {
+  #search-result {
     grid-template-areas: "img img img img";
   }
-  #search-result {
+  #popular-searches {
     grid-template-areas: "img img img img";
   }
 }
 
 @media screen and (max-width: 600px) {
-  #popular-searches {
+  #search-result {
     grid-template-areas: "img img img";
   }
-  #search-result {
+  #popular-searches {
     grid-template-areas: "img img img";
   }
   .film-poster {
@@ -114,10 +110,10 @@ body {
 }
 
 @media screen and (max-width: 350px) {
-  #popular-searches {
+  #search-result {
     grid-template-areas: "img img";
   }
-  #search-result {
+  #popular-searches {
     grid-template-areas: "img img";
   }
   .film-poster {
