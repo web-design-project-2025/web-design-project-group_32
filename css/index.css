@@ -4,7 +4,7 @@ body {
 
 /* The hero section and the search bar */
 #hero-section {
-  min-height: 65vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,13 +20,6 @@ body {
     height: auto;
     padding: 2rem 2rem;
   }
-}
-
-#hero-section h1 {
-  height: 2rem;
-  width: 100%;
-  text-align: center;
-  min-width: 10rem;
 }
 
 #hero-section button {
@@ -48,25 +41,32 @@ body {
 }
 
 #search-section {
-  width: 30%;
-  height: 50%;
-  margin: auto;
-  min-width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 #search-bar {
   width: 100%;
+  min-width: 15rem;
+  max-width: 26rem;
   height: 1.8rem;
   background-color: #ffffffd0;
   border-radius: 0.4rem;
-  margin-bottom: 1rem;
-  min-width: 18rem;
-  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#search-result {
+  display: grid;
+  grid-template-areas: "img img img img img img img";
+  justify-content: center;
+  margin-top: 0.8rem;
 }
 
 /* Popular searches section */
 #popular-searches-title {
-  width: 100%;
   text-align: center;
 }
 
@@ -87,16 +87,25 @@ body {
   #popular-searches {
     grid-template-areas: "img img img img img";
   }
+  #search-result {
+    grid-template-areas: "img img img img img";
+  }
 }
 
 @media screen and (max-width: 745px) {
   #popular-searches {
     grid-template-areas: "img img img img";
   }
+  #search-result {
+    grid-template-areas: "img img img img";
+  }
 }
 
 @media screen and (max-width: 600px) {
   #popular-searches {
+    grid-template-areas: "img img img";
+  }
+  #search-result {
     grid-template-areas: "img img img";
   }
   .film-poster {
@@ -106,6 +115,9 @@ body {
 
 @media screen and (max-width: 350px) {
   #popular-searches {
+    grid-template-areas: "img img";
+  }
+  #search-result {
     grid-template-areas: "img img";
   }
   .film-poster {
