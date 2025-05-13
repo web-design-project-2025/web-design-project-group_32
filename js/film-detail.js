@@ -119,3 +119,19 @@ document.addEventListener("DOMContentLoaded", () => {
       ).innerHTML = `<p>Error loading film data.</p>`;
     });
 });
+
+const favoriteButton = document.getElementById("favorite");
+const filmPoster = document.getElementById("film-poster");
+
+favoriteButton.addEventListener("click", function () {
+  const poster = filmPoster.src;
+
+  // Get existing favorites from localStorage
+  let favoritePosters = JSON.parse(localStorage.getItem("filmPosters")) || [];
+
+  // Avoid duplicates
+  if (!favoritePosters.includes(poster)) {
+    favoritePosters.push(poster);
+    localStorage.setItem("filmPosters", JSON.stringify(favoritePosters));
+  }
+});
