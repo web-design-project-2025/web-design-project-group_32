@@ -42,6 +42,10 @@ h2 {
   font-family: var(--secondary-font);
 }
 
+input {
+  font-family: var(--primary-font);
+}
+
 /* header navgation bar form Sean*/
 
 nav li {

@@ -2,9 +2,9 @@ body {
   box-sizing: border-box;
 }
 
-/* The hero section and the search bar */
+/* Hero section */
 #hero-section {
-  min-height: 65vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,24 +12,29 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 2rem 2rem;
 }
 
-@media (max-width: 760px) {
-  #hero-section {
-    min-height: 15rem;
-    height: auto;
-    padding: 2rem 2rem;
-  }
-}
-
-#hero-section h1 {
-  height: 2rem;
+#search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  text-align: center;
-  min-width: 10rem;
 }
 
-#hero-section button {
+/* Search bar */
+#search-bar {
+  width: 100%;
+  min-width: 15rem;
+  max-width: 26rem;
+  height: 1.8rem;
+  background-color: #ffffffd0;
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+#search-button {
   display: block;
   color: var(--text-color);
   border: 0.1rem solid var(--button-bg-color);
@@ -42,30 +47,20 @@ body {
   margin: auto;
 }
 
-#hero-section button:hover {
+#search-button:hover {
   background-color: var(--button-bg-color-hover);
   cursor: pointer;
 }
 
-#search-section {
-  width: 30%;
-  height: 50%;
-  margin: auto;
-  min-width: 18rem;
-}
-
-#search-bar {
-  width: 100%;
-  height: 2rem;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-  min-width: 18rem;
-  padding-left: 1rem;
+#search-result {
+  display: grid;
+  grid-template-areas: "img img img img img img img";
+  justify-content: center;
+  margin-top: 0.8rem;
 }
 
 /* Popular searches section */
 #popular-searches-title {
-  width: 100%;
   text-align: center;
 }
 
@@ -82,19 +77,30 @@ body {
   box-shadow: var(--film-poster-box-shadow);
 }
 
+/* Media queries */
+/* Search result and popular searches */
 @media screen and (max-width: 1020px) {
+  #search-result {
+    grid-template-areas: "img img img img img";
+  }
   #popular-searches {
     grid-template-areas: "img img img img img";
   }
 }
 
 @media screen and (max-width: 745px) {
+  #search-result {
+    grid-template-areas: "img img img img";
+  }
   #popular-searches {
     grid-template-areas: "img img img img";
   }
 }
 
 @media screen and (max-width: 600px) {
+  #search-result {
+    grid-template-areas: "img img img";
+  }
   #popular-searches {
     grid-template-areas: "img img img";
   }
@@ -104,6 +110,9 @@ body {
 }
 
 @media screen and (max-width: 350px) {
+  #search-result {
+    grid-template-areas: "img img";
+  }
   #popular-searches {
     grid-template-areas: "img img";
   }
