@@ -119,3 +119,35 @@ document.addEventListener("DOMContentLoaded", () => {
       ).innerHTML = `<p>Error loading film data.</p>`;
     });
 });
+
+const favoriteButton = document.getElementById("favorite");
+const filmPoster = document.getElementById("film-poster");
+
+// Add films to the favorites list — code starts here
+
+favoriteButton.addEventListener("click", function () {
+  const poster = filmPoster.src;
+  const params = new URLSearchParams(window.location.search);
+  const filmId = params.get("id");
+
+  let favoriteFilms = JSON.parse(localStorage.getItem("filmPosters")) || [];
+
+  const alreadySaved = favoriteFilms.some((f) => f.id === filmId);
+
+  const messageBox = document.createElement("div");
+  messageBox.classList.add("message-box", "mb-sign-in");
+  document.body.appendChild(messageBox);
+
+  if (!alreadySaved) {
+    favoriteFilms.push({ id: filmId, poster: poster });
+    localStorage.setItem("filmPosters", JSON.stringify(favoriteFilms));
+    messageBox.textContent = "Added to favorites.";
+  } else {
+    messageBox.textContent = "Already in favorites.";
+    messageBox.classList.add("message-box", "mb-sign-out");
+  }
+
+  setTimeout(() => {
+    messageBox.remove();
+  }, 2000);
+});
