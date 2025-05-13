@@ -35,7 +35,6 @@ header {
   font-family: var(--secondary-font);
   height: 5rem;
   box-shadow: var(--header-box-shadow);
-  border-bottom: 0.1rem solid var(--text-color);
 }
 
 h1,
@@ -58,7 +57,7 @@ nav li {
 }
 
 /* underline for button in the header */
-/* .nav-link {
+.nav-link {
   border-bottom: 0.15rem solid transparent;
   transform-origin: left;
   transition: border-bottom-color 1s ease, transform 1s ease;
@@ -66,7 +65,7 @@ nav li {
 }
 .nav-link:hover {
   border-bottom-color: white;
-} */
+}
 
 .nav-links {
   display: flex;
