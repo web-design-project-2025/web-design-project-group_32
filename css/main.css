@@ -60,7 +60,7 @@ nav li {
 .nav-link {
   border-bottom: 0.15rem solid transparent;
   transform-origin: left;
-  transition: border-bottom-color 1s ease, transform 1s ease;
+  transition: border-bottom-color 0.5s ease, transform 0.5s ease;
   transform: scaleX(1);
 }
 .nav-link:hover {
@@ -298,6 +298,17 @@ footer a img:hover {
   }
 }
 
+/* Underline for the footer */
+.footer-link {
+  border-bottom: 0.1rem solid transparent;
+  transform-origin: left;
+  transition: border-bottom-color 0.2s ease, transform 0.2s ease;
+  transform: scaleX(1);
+}
+
+.footer-link:hover {
+  border-bottom-color: var(--text-color);
+}
 @media (max-width: 760px) {
   #footer-container {
     gap: 4rem;
