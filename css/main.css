@@ -56,6 +56,17 @@ nav li {
   font-size: 1.5rem;
 }
 
+/* underline for button in the header */
+.nav-link {
+  border-bottom: 0.15rem solid transparent;
+  transform-origin: left;
+  transition: border-bottom-color 0.5s ease, transform 0.5s ease;
+  transform: scaleX(1);
+}
+.nav-link:hover {
+  border-bottom-color: white;
+}
+
 .nav-links {
   display: flex;
   justify-content: flex-end;
@@ -110,11 +121,11 @@ header a {
 
 /* If the screen is zoomed out change the menu style */
 @media screen and (max-width: 700px) {
-  .logo img{
+  .logo img {
     height: 3rem;
   }
-  header{
-    height:4rem;
+  header {
+    height: 4rem;
   }
   /* The nav bar on mobile */
   .nav-links {
@@ -287,6 +298,17 @@ footer a img:hover {
   }
 }
 
+/* Underline for the footer */
+.footer-link {
+  border-bottom: 0.1rem solid transparent;
+  transform-origin: left;
+  transition: border-bottom-color 0.2s ease, transform 0.2s ease;
+  transform: scaleX(1);
+}
+
+.footer-link:hover {
+  border-bottom-color: var(--text-color);
+}
 @media (max-width: 760px) {
   #footer-container {
     gap: 4rem;
