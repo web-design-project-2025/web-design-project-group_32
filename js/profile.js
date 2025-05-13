@@ -52,7 +52,7 @@ function renderFavorites() {
     nofavoriteFilmMessage.textContent = "";
   } else {
     nofavoriteFilmMessage.textContent =
-      "No favorite film is saved at this moment.";
+      "No favorites saved.";
   }
 }
 

@@ -40,18 +40,18 @@
 .user-name {
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 5px;
+  margin: 0.35rem;
   color: white;
 }
 
 .user-join {
   font-size: 1.2rem;
-  margin: 5px;
+  margin: 0.35rem;
   color: white;
 }
 .user-interest {
   font-size: 1rem;
-  margin: 5px;
+  margin: 0.35rem;
   color: white;
 }
 
@@ -63,7 +63,7 @@
   padding-top: 5rem;
 }
 
-#favorite-films p {
+#favorite-films h2 {
   font-size: 1.5em;
   font-weight: bold;
   color: white;
@@ -72,7 +72,6 @@
 #favorite-film-display {
   display: grid;
   justify-content: center;
-  margin: 1rem 0 4rem 0;
   grid-template-areas:
     "img img img img img img img"
     "img img img img img img img";
@@ -82,7 +81,7 @@
   width: 8rem;
   height: auto;
   display: block;
-  margin: 0.3rem 0.3rem 5px 0.3rem;
+  margin: 0.3rem 0.3rem 0.3rem 0.3rem;
   box-shadow: var(--film-poster-box-shadow);
 }
 
@@ -103,7 +102,7 @@
 .remove-button {
   color: var(--text-color);
   border: none;
-  padding: 3px 20px;
+  padding: 0.2rem 1.25rem;
   border-radius: 4px;
   background-color: var(--button-bg-color);
   transition: background-color 0.1s ease-in-out;
@@ -155,6 +154,6 @@
 
   .user-interest {
     padding: 0 0.5rem;
-    margin: 5px 0;
+    margin: 0.35rem 0;
   }
 }
