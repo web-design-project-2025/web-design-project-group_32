@@ -33,7 +33,7 @@ body {
 header {
   background-color: var(--primary-bg-color);
   font-family: var(--secondary-font);
-  height: 6rem;
+  height: 5rem;
   box-shadow: var(--header-box-shadow);
 }
 
@@ -65,12 +65,15 @@ nav {
 }
 
 .logo {
-  max-width: 11rem;
+  max-width: 40rem;
   margin-top: 0.4rem;
   margin-bottom: auto;
   margin-left: 0.5rem;
 }
 
+.logo img{
+  height: 4rem;
+}
 header a {
   color: var(--text-color);
   text-decoration: none;
