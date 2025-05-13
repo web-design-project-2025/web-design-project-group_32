@@ -71,7 +71,7 @@ nav {
   margin-left: 0.5rem;
 }
 
-.logo img{
+.logo img {
   height: 4rem;
 }
 header a {
@@ -106,6 +106,12 @@ header a {
 
 /* If the screen is zoomed out change the menu style */
 @media screen and (max-width: 700px) {
+  .logo img{
+    height: 3rem;
+  }
+  header{
+    height:4rem;
+  }
   /* The nav bar on mobile */
   .nav-links {
     display: none;
@@ -133,7 +139,7 @@ header a {
 
   /* The menu button on mobile */
   .burgermenu {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
