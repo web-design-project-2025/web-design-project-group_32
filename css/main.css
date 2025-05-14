@@ -205,11 +205,6 @@ footer a img {
   max-width: 250px;
 }
 
-footer a img:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-}
-
 #footer-container {
   display: flex;
   gap: 5rem;
@@ -257,11 +252,6 @@ footer a img:hover {
 
 .follow-us a img {
   margin: 5px;
-}
-
-.follow-us img:hover {
-  transform: scale(1.2);
-  transition: transform 0.3s ease-in-out;
 }
 
 #footer-copy-right-division {
