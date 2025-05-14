@@ -16,8 +16,8 @@ main {
   justify-content: center;
 }
 
-.filter-label{
-  height:1.8rem;
+.filter-label {
+  height: 1.8rem;
   margin: auto 0;
   padding-top: 0.5rem;
 }
@@ -64,20 +64,21 @@ main {
   #films-gallery {
     grid-template-areas: "img img img img";
   }
-}
-
-@media screen and (max-width: 620px) {
-  #films-gallery {
-    grid-template-areas: "img img img";
+  #filters {
+    display: block;
+    padding-top: 2rem;
+  }
+  #filters-title {
+    text-align: left;
+    width: 70%;
+    margin: 1rem auto;
+  }
+  #select-section {
+    width: 70%;
+    margin: 0 auto;
+    justify-content: left;
   }
 }
-
-@media screen and (max-width: 460px) {
-  #films-gallery {
-    grid-template-areas: "img img";
-  }
-}
-
 @media screen and (max-width: 690px) {
   #filters {
     display: block;
@@ -89,17 +90,43 @@ main {
     margin: 0 auto 2rem auto;
     width: 70%;
     min-width: 22rem;
+    min-width: 28rem;
   }
 
   #filters-title {
     margin: 0 auto 1rem auto;
     width: 70%;
     text-align: left;
-    padding-left: 2rem;
-    min-width: 21rem;
+    min-width: 28rem;
   }
 }
 
 .film-title {
   max-width: 128px;
+}
+
+@media screen and (max-width: 620px) {
+  #films-gallery {
+    grid-template-areas: "img img img";
+  }
+  #select-section select {
+    margin-left: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #films-gallery {
+    grid-template-areas: "img img";
+  }
+  #select-section {
+    display: block;
+    height: 13rem;
+    width: 30%;
+    min-width: unset;
+    width: 17rem;
+  }
+  #filters-title {
+    min-width: unset;
+    width: 17rem;
+  }
 }
