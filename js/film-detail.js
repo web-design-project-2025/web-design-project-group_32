@@ -1,5 +1,5 @@
 // Get the comments section data
-fetch("../data/comments.json")
+fetch("data/comments.json")
   .then((response) => response.json())
   .then((comments) => {
     const container = document.getElementById("comments-container");
