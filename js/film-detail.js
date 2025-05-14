@@ -41,7 +41,7 @@ fetch("data/comments.json")
   });
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("../data/films.json")
+  fetch("data/films.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("HTTP error! Status:${response.status}");
