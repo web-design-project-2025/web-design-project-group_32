@@ -132,7 +132,7 @@ header a {
     display: none;
     position: absolute;
     width: 6.25rem;
-    top: 4rem;
+    top: 3rem;
     right: 1rem;
     flex-direction: column;
     padding: 1.5rem;
@@ -150,6 +150,7 @@ header a {
     gap: 10px;
     opacity: 1;
     transform: translateY(0);
+    background-color: var(--primary-bg-color);
   }
 
   /* The menu button on mobile */
