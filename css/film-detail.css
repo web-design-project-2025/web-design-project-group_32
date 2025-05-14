@@ -110,7 +110,7 @@
 
 #trailer-button {
   width: 5rem;
-  height:2rem;
+  height: 2rem;
   text-align: center;
   color: var(--text-color);
   background-color: var(--button-bg-color);
@@ -123,7 +123,7 @@
 
 #favorite {
   width: 5rem;
-  height:2rem;
+  height: 2rem;
   text-align: center;
   color: var(--text-color);
   background-color: var(--button-bg-color);
@@ -162,13 +162,12 @@
   height: 100%;
   margin-top: 0.2rem;
   width: 80%;
-  text-align: center;
+  text-align: left;
   font-size: 1.7rem;
 }
 
 #year {
   height: 50;
-  margin-top: auto;
   margin-bottom: auto;
   width: 20%;
 }
@@ -206,6 +205,8 @@
 #film-cast {
   list-style: none;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1030px) {

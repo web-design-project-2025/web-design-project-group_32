@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("year").textContent = "(" + film.year + ")";
         document.getElementById("genre").textContent = film.genre;
         document.getElementById("film-director").textContent =
-          "Directed by" + film.director;
+          "Directed by " + film.director;
         document.getElementById("film-plot").textContent = film.plot;
         document.getElementById("film-poster").src = film.poster;
 
