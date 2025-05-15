@@ -75,6 +75,7 @@ body {
   width: 8rem;
   margin: 0 0.3rem;
   box-shadow: var(--film-poster-box-shadow);
+  border-radius: var(--film-poster-border-radius);
 }
 
 /* Media queries */

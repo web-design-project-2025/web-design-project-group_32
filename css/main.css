@@ -14,7 +14,8 @@ html {
   --sign-out-bg-color: red; /* Background color for the message box of sign-out */
 
   /* Borders */
-  --button-border-radius: 0.5rem;
+  --button-border-radius: 0.5rem; /* Border radius for buttons */
+  --film-poster-border-radius: 0.6rem; /* Border radius for film posters */
 
   /* Shadows */
   --header-box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #2b2b2b; /* Drop shadow for the header */
@@ -88,6 +89,7 @@ nav {
 .logo img {
   height: 4rem;
 }
+
 header a {
   color: var(--text-color);
   text-decoration: none;
@@ -98,7 +100,7 @@ header a {
   display: none;
 }
 
-/* message box style for sign-in and sign-out */
+/* Message box style for sign-in and sign-out */
 .message-box {
   position: fixed;
   top: 6rem;
@@ -304,6 +306,7 @@ footer a img {
 .footer-link:hover {
   border-bottom-color: var(--text-color);
 }
+
 @media (max-width: 760px) {
   #footer-container {
     gap: 4rem;
