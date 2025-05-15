@@ -89,7 +89,6 @@
 
 #film-poster {
   width: 100%;
-  height: 10%;
   object-fit: cover;
   border-radius: var(--film-poster-border-radius);
 }
