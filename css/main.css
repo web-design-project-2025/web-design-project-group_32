@@ -21,7 +21,8 @@ html {
   --film-poster-box-shadow: 0.1rem 0.1rem 1rem 0.4rem #2b2b2b; /* Drop shadow for the film posters */
   --message-box-shadow: 0.1rem 0.1rem 0.5rem 0.3rem #2b2b2b; /* Drop shadow for the message box of sign-in and sign-out */
   --button-box-shadow: 0.1rem 0.1rem 0.5rem 0.01rem #2b2b2b; /* Drop shadow for buttons */
-  --burgermenu-box-shadow:  /* Drop shadow for the header */
+  --burgermenu-box-shadow: 0 0.2rem 0.5rem -0.1rem #2b2b2b,
+    inset 0 0.1rem 0.3rem 0.1rem #2b2b2b; /* Drop shadow for the burger menu */
 }
 
 body {
@@ -152,7 +153,7 @@ header a {
     opacity: 1;
     transform: translateY(0);
     background-color: var(--primary-bg-color);
-    box-shadow: 0 0.2rem 0.5rem -0.1rem #2b2b2b,inset 0 0.1rem 0.3rem 0.1rem #2b2b2b;
+    box-shadow: var(--burgermenu-box-shadow);
   }
 
   /* The menu button on mobile */
