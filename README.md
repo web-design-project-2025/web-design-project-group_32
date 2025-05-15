@@ -33,15 +33,15 @@
  <h3>Signing Up and Logging In</h3>
  <p>
     Click the <strong>“Sign In”</strong> button at the top right of your screen to sign up or log in. 
-    On mobile or tablet devices, you’ll find this option inside the hamburger menu (≡).
+    On mobile or tablet devices, you will find this option inside the hamburger menu (≡).
   </p>
 
 <h3>Adding a Film to Your Favorites</h3>
   <ol>
     <li>Make sure you are logged in. If not, click the <strong>“Sign In”</strong> button in the top right or the hamburger menu (≡).</li>
     <li>Search for a film on the home page or find it by filtering on the films page.</li>
-    <li>Click on the films poster, this will take you to the details page where you will find the <strong>Favorite</strong> button underneath the film poster.</li>
-    <li>Click the <strong>Favorite</strong> button to add the film to your favorites list on your profile.</li>
+    <li>Click on the films poster, this will take you to the details page where you will find the <strong>"Favorite"</strong> button underneath the film poster.</li>
+    <li>Click the <strong>"Favorite"</strong> button to add the film to your favorites list on your profile.</li>
   </ol>
 
 <h2>Installation</h2>
