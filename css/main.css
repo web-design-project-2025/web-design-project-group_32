@@ -230,7 +230,7 @@ footer a img {
   color: var(--text-color);
   font-size: 1.3rem;
   font-weight: bold;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0rem;
 }
 
 .footer-list-sub-head {
@@ -238,7 +238,7 @@ footer a img {
 }
 
 .follow-us {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .follow-us-sub-division {
