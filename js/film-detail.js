@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const film = filmsData.find((f) => f.id.toString() === filmId.toString());
       if (film) {
         document.title = `STARVIEW | ${film.title}`;
-        document.getElementById("film-title").textContent = film.title;
-        document.getElementById("year").textContent = "(" + film.year + ")";
+        document.getElementById("film-title").textContent =
+          film.title + " (" + film.year + ")";
         document.getElementById("genre").textContent = film.genre;
         document.getElementById("film-director").textContent =
           "Directed by " + film.director;
