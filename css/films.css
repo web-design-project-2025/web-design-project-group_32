@@ -21,6 +21,7 @@ main {
   margin: auto 0;
   padding-top: 0.5rem;
 }
+
 #filters select {
   font-size: 1rem;
   height: 1.8rem;
@@ -58,6 +59,7 @@ main {
 .film-poster {
   width: 8rem;
   box-shadow: var(--film-poster-box-shadow);
+  border-radius: var(--film-poster-border-radius);
 }
 
 @media screen and (max-width: 772px) {
