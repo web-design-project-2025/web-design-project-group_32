@@ -22,6 +22,10 @@ main {
 cite {
   font-size: 0.7rem;
 }
+
+.films img{
+    width: 100%;
+}
 .dividing-films {
   margin-top: 2.5rem;
 }
