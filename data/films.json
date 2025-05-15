@@ -2,7 +2,7 @@
   "films": [
     {
       "id": 1,
-      "poster": "images/film-posters/paddington-in-peru-poster.jpg",
+      "poster": "assets/images/film-posters/paddington-in-peru-poster.jpg",
       "title": "Paddington in Peru",
       "genre": ["Adventure", "Comedy", "Family"],
       "year": 2025,
@@ -19,7 +19,7 @@
     },
     {
       "id": 2,
-      "poster": "images/film-posters/the-amateur-poster.jpg",
+      "poster": "assets/images/film-posters/the-amateur-poster.jpg",
       "title": "The Amateur",
       "genre": ["Action", "Thriller"],
       "year": 2025,
@@ -36,7 +36,7 @@
     },
     {
       "id": 3,
-      "poster": "images/film-posters/a-minecraft-movie-poster.jpg",
+      "poster": "assets/images/film-posters/a-minecraft-movie-poster.jpg",
       "title": "A Minecraft Movie",
       "genre": ["Adventure", "Comedy", "Fantasy", "Family"],
       "year": 2025,
@@ -53,7 +53,7 @@
     },
     {
       "id": 4,
-      "poster": "images/film-posters/ballerina-poster.jpg",
+      "poster": "assets/images/film-posters/ballerina-poster.jpg",
       "title": "From the World of John Wick: Ballerina",
       "genre": ["Action", "Crime", "Thriller"],
       "year": 2025,
@@ -70,7 +70,7 @@
     },
     {
       "id": 5,
-      "poster": "images/film-posters/warfare-poster.jpg",
+      "poster": "assets/images/film-posters/warfare-poster.jpg",
       "title": "Warfare",
       "genre": ["Action", "War"],
       "year": 2025,
@@ -87,7 +87,7 @@
     },
     {
       "id": 6,
-      "poster": "images/film-posters/mickey-17-poster.jpg",
+      "poster": "assets/images/film-posters/mickey-17-poster.jpg",
       "title": "Mickey 17",
       "genre": ["Adventure", "Comedy", "Sci-Fi"],
       "year": 2025,
@@ -104,7 +104,7 @@
     },
     {
       "id": 7,
-      "poster": "images/film-posters/snow-white-poster.jpg",
+      "poster": "assets/images/film-posters/snow-white-poster.jpg",
       "title": "Snow White",
       "genre": ["Fantasy", "Family"],
       "year": 2025,
@@ -116,7 +116,7 @@
     },
     {
       "id": 8,
-      "poster": "images/film-posters/black-bag-poster.jpg",
+      "poster": "assets/images/film-posters/black-bag-poster.jpg",
       "title": "Black Bag",
       "genre": ["Drama", "Mystery", "Thriller"],
       "year": 2025,
@@ -133,7 +133,7 @@
     },
     {
       "id": 9,
-      "poster": "images/film-posters/sinners-poster.jpg",
+      "poster": "assets/images/film-posters/sinners-poster.jpg",
       "title": "Sinners",
       "genre": ["Action", "Thriller", "Horror"],
       "year": 2025,
@@ -150,7 +150,7 @@
     },
     {
       "id": 10,
-      "poster": "images/film-posters/mission-impossible-the-final-reckoning-poster.jpg",
+      "poster": "assets/images/film-posters/mission-impossible-the-final-reckoning-poster.jpg",
       "title": "Mission: Impossible – The Final Reckoning",
       "genre": ["Action", "Adventure", "Thriller"],
       "year": 2025,
@@ -162,7 +162,7 @@
     },
     {
       "id": 11,
-      "poster": "images/film-posters/parasite-poster.jpg",
+      "poster": "assets/images/film-posters/parasite-poster.jpg",
       "title": "Parasite",
       "genre": ["Drama", "Thriller", "Comedy"],
       "year": 2019,
@@ -179,7 +179,7 @@
     },
     {
       "id": 12,
-      "poster": "images/film-posters/la-la-land-poster.jpg",
+      "poster": "assets/images/film-posters/la-la-land-poster.jpg",
       "title": "La La Land",
       "genre": ["Drama", "Musical", "Romance", "Comedy"],
       "year": 2016,
@@ -191,7 +191,7 @@
     },
     {
       "id": 13,
-      "poster": "images/film-posters/whiplash-poster.jpg",
+      "poster": "assets/images/film-posters/whiplash-poster.jpg",
       "title": "Whiplash",
       "genre": ["Drama", "Music"],
       "year": 2014,
@@ -208,7 +208,7 @@
     },
     {
       "id": 14,
-      "poster": "images/film-posters/scott-pilgrim-vs-the-world-poster.jpg",
+      "poster": "assets/images/film-posters/scott-pilgrim-vs-the-world-poster.jpg",
       "title": "Scott Pilgrim vs. the World",
       "genre": ["Action", "Comedy", "Romance"],
       "year": 2010,
@@ -225,7 +225,7 @@
     },
     {
       "id": 15,
-      "poster": "images/film-posters/the-social-network-poster.jpg",
+      "poster": "assets/images/film-posters/the-social-network-poster.jpg",
       "title": "The Social Network",
       "genre": ["Drama"],
       "year": 2010,
@@ -242,7 +242,7 @@
     },
     {
       "id": 16,
-      "poster": "images/film-posters/shrek-poster.jpg",
+      "poster": "assets/images/film-posters/shrek-poster.jpg",
       "title": "Shrek",
       "genre": ["Animation", "Adventure", "Comedy", "Family"],
       "year": 2001,
@@ -254,7 +254,7 @@
     },
     {
       "id": 17,
-      "poster": "images/film-posters/the-lord-of-the-rings-the-fellowship-of-the-ring-poster.jpg",
+      "poster": "assets/images/film-posters/the-lord-of-the-rings-the-fellowship-of-the-ring-poster.jpg",
       "title": "The Lord of the Rings: The Fellowship of the Ring",
       "genre": ["Adventure", "Action", "Fantasy"],
       "year": 2001,
@@ -266,7 +266,7 @@
     },
     {
       "id": 18,
-      "poster": "images/film-posters/little-miss-sunshine-poster.jpg",
+      "poster": "assets/images/film-posters/little-miss-sunshine-poster.jpg",
       "title": "Little Miss Sunshine",
       "genre": ["Comedy", "Drama"],
       "year": 2006,
@@ -278,7 +278,7 @@
     },
     {
       "id": 19,
-      "poster": "images/film-posters/ratatouille-poster.jpg",
+      "poster": "assets/images/film-posters/ratatouille-poster.jpg",
       "title": "Ratatouille",
       "genre": ["Animation", "Adventure", "Comedy", "Family"],
       "year": 2007,
@@ -290,7 +290,7 @@
     },
     {
       "id": 20,
-      "poster": "images/film-posters/no-country-for-old-men-poster.jpg",
+      "poster": "assets/images/film-posters/no-country-for-old-men-poster.jpg",
       "title": "No Country for Old Men",
       "genre": ["Crime", "Drama", "Thriller"],
       "year": 2007,
@@ -307,7 +307,7 @@
     },
     {
       "id": 21,
-      "poster": "images/film-posters/the-matrix-poster.jpg",
+      "poster": "assets/images/film-posters/the-matrix-poster.jpg",
       "title": "The Matrix",
       "genre": ["Action", "Sci-Fi"],
       "year": 1999,
@@ -324,7 +324,7 @@
     },
     {
       "id": 22,
-      "poster": "images/film-posters/the-truman-show-poster.jpg",
+      "poster": "assets/images/film-posters/the-truman-show-poster.jpg",
       "title": "The Truman Show",
       "genre": ["Drama", "Comedy"],
       "year": 1998,
@@ -341,7 +341,7 @@
     },
     {
       "id": 23,
-      "poster": "images/film-posters/se7en-poster.jpg",
+      "poster": "assets/images/film-posters/se7en-poster.jpg",
       "title": "Se7en",
       "genre": ["Crime", "Drama", "Mystery", "Thriller"],
       "year": 1995,
@@ -358,7 +358,7 @@
     },
     {
       "id": 24,
-      "poster": "images/film-posters/forrest-gump-poster.jpg",
+      "poster": "assets/images/film-posters/forrest-gump-poster.jpg",
       "title": "Forrest Gump",
       "genre": ["Drama", "Romance", "Comedy"],
       "year": 1994,
@@ -370,7 +370,7 @@
     },
     {
       "id": 25,
-      "poster": "images/film-posters/the-shawshank-redemption-poster.jpg",
+      "poster": "assets/images/film-posters/the-shawshank-redemption-poster.jpg",
       "title": "The Shawshank Redemption",
       "genre": ["Drama", "Crime"],
       "year": 1994,
@@ -382,7 +382,7 @@
     },
     {
       "id": 26,
-      "poster": "images/film-posters/rain-man-poster.jpg",
+      "poster": "assets/images/film-posters/rain-man-poster.jpg",
       "title": "Rain Man",
       "genre": ["Drama"],
       "year": 1988,
@@ -399,7 +399,7 @@
     },
     {
       "id": 27,
-      "poster": "images/film-posters/my-neighbor-totoro-poster.jpg",
+      "poster": "assets/images/film-posters/my-neighbor-totoro-poster.jpg",
       "title": "My Neighbor Totoro",
       "genre": ["Animation", "Family", "Fantasy"],
       "year": 1988,
@@ -416,7 +416,7 @@
     },
     {
       "id": 28,
-      "poster": "images/film-posters/raiders-of-the-lost-ark-poster.jpg",
+      "poster": "assets/images/film-posters/raiders-of-the-lost-ark-poster.jpg",
       "title": "Raiders of the Lost Ark",
       "genre": ["Action", "Adventure"],
       "year": 1981,
@@ -433,7 +433,7 @@
     },
     {
       "id": 29,
-      "poster": "images/film-posters/raging-bull-poster.jpg",
+      "poster": "assets/images/film-posters/raging-bull-poster.jpg",
       "title": "Raging Bull",
       "genre": ["Drama", "Sport"],
       "year": 1980,
@@ -450,7 +450,7 @@
     },
     {
       "id": 30,
-      "poster": "images/film-posters/the-shining-poster.jpg",
+      "poster": "assets/images/film-posters/the-shining-poster.jpg",
       "title": "The Shining",
       "genre": ["Thriller", "Horror"],
       "year": 1980,
@@ -467,7 +467,7 @@
     },
     {
       "id": 31,
-      "poster": "images/film-posters/alien-poster.jpg",
+      "poster": "assets/images/film-posters/alien-poster.jpg",
       "title": "Alien",
       "genre": ["Horror", "Sci-Fi"],
       "year": 1979,
@@ -484,7 +484,7 @@
     },
     {
       "id": 32,
-      "poster": "images/film-posters/star-wars-poster.jpg",
+      "poster": "assets/images/film-posters/star-wars-poster.jpg",
       "title": "Star Wars",
       "genre": ["Action", "Adventure", "Sci-Fi"],
       "year": 1977,
@@ -501,7 +501,7 @@
     },
     {
       "id": 33,
-      "poster": "images/film-posters/taxi-driver-poster.jpg",
+      "poster": "assets/images/film-posters/taxi-driver-poster.jpg",
       "title": "Taxi Driver",
       "genre": ["Crime", "Drama"],
       "year": 1976,
@@ -518,7 +518,7 @@
     },
     {
       "id": 34,
-      "poster": "images/film-posters/jaws-poster.jpg",
+      "poster": "assets/images/film-posters/jaws-poster.jpg",
       "title": "Jaws",
       "genre": ["Adventure", "Thriller", "Horror"],
       "year": 1975,
@@ -535,7 +535,7 @@
     },
     {
       "id": 35,
-      "poster": "images/film-posters/the-godfather-poster.jpg",
+      "poster": "assets/images/film-posters/the-godfather-poster.jpg",
       "title": "The Godfather",
       "genre": ["Crime", "Drama"],
       "year": 1972,
