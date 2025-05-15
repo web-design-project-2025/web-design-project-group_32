@@ -86,12 +86,14 @@
   display: flex;
   justify-content: center;
 }
+
 #film-poster {
   width: 100%;
   height: 10%;
   object-fit: cover;
   border-radius: 1rem;
 }
+
 /* the rating under poster */
 .rating-section {
   margin-top: 2rem;
@@ -139,12 +141,13 @@
   background-color: var(--button-bg-color-hover);
   cursor: pointer;
 }
+
 /* The container of film */
 #film-container {
   box-sizing: border-box;
   width: 65%;
   display: flex;
-  margin: 1rem auto 2rem auto;
+  margin: 2rem auto 2rem auto;
   max-width: 42rem;
   min-height: 30rem;
 }
@@ -160,9 +163,8 @@
   overflow: hidden;
   font-family: var(--secondary-font);
   height: 100%;
-  margin-top: 0.2rem;
+  margin: 0.2rem 0 0.1rem 0;
   width: 80%;
-  text-align: left;
   font-size: 1.7rem;
 }
 
@@ -184,7 +186,7 @@
 #film-summary {
   width: 60%;
   height: 100%;
-  padding-left: 0.5rem;
+  margin-left: 1.4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -199,13 +201,19 @@
 
 #film-plot {
   width: 100%;
-  height: auto;
+  margin: 0 0 1.5rem 0;
+}
+
+#cast-heading {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
 }
 
 #film-cast {
   list-style: none;
   width: 100%;
-  margin: 0;
+  margin: 0 0 1rem 0;
   padding: 0;
 }
 
