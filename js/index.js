@@ -1,5 +1,4 @@
-//Hero Section and related functionality
-
+// Hero section
 const images = [
   "hero-image-1.jpg",
   "hero-image-2.jpg",
@@ -21,7 +20,7 @@ localStorage.setItem("index", randomIndex);
 
 const heroSection = document.getElementById("hero-section");
 heroSection.style.backgroundImage =
-  "url('images/hero-images/" + randomImage + "')";
+  "url('assets/images/hero-images/" + randomImage + "')";
 
 // Search bar
 const searchBarElement = document.getElementById("search-bar");
