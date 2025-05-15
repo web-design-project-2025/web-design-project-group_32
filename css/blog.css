@@ -1,0 +1,28 @@
+main {
+  width: 70%;
+  margin: 2rem auto;
+  min-width: 45rem;
+}
+
+.poster {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.films{
+    padding:0.5rem 4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.03rem;
+}
+
+cite{
+    font-size: 0.7rem;
+}
+.dividing-films{
+    margin-top: 2.5rem;
+}
+
+hr{
+    margin-top: 0.8rem;
+}
