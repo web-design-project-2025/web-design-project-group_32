@@ -64,9 +64,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document.title = `STARVIEW | ${film.title}`;
         document.getElementById("film-title").textContent =
           film.title + " (" + film.year + ")";
-        document.getElementById("genre").textContent = film.genre;
+        document.getElementById("genre").textContent = film.genre.join(", ");
         document.getElementById("film-director").textContent =
-          "Directed by " + film.director;
+          "Directed by " + film.director.join(", ");
         document.getElementById("film-plot").textContent = film.plot;
         document.getElementById("film-poster").src = film.poster;
 
