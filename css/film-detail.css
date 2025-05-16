@@ -55,18 +55,9 @@
   font-weight: normal;
 }
 
-.stars {
-  color: #ffd700;
-}
-
 .username {
   font-weight: 800;
   font-size: large;
-}
-@media screen and (max-width: 430px) {
-  #comment-section {
-    border: none;
-  }
 }
 
 .star {
@@ -216,6 +207,7 @@
   padding: 0;
 }
 
+/* Media queries */
 @media screen and (max-width: 1030px) {
   #film-container {
     flex-direction: column;
@@ -255,5 +247,11 @@
 
   #film-poster {
     min-width: unset;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #comment-section {
+    border: none;
   }
 }
