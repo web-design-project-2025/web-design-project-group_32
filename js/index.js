@@ -73,3 +73,36 @@ function searchFilms() {
     searchResultElement.textContent = "No matches found.";
   }
 }
+
+function loadPopularSearches() {
+  fetch("data/films.json")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then((data) => {
+      const filmListElement = document.getElementById("popular-searches");
+      for (let film of data.films.slice(0, 7)) {
+        const filmPosterElement = document.createElement("div");
+        filmPosterElement.innerHTML = `
+          <a href="film-detail.html?id=${film.id}"><img class="film-poster" src="${film.poster}"></a>
+          <div class="star-container">
+          </div>
+          `;
+        filmListElement.appendChild(filmPosterElement);
+      }
+    })
+    .catch((error) => {
+      const filmListElement = document.getElementById("popular-searches");
+      filmListElement.innerHTML = `<p>Failed to load films</p>`;
+      console.log(error);
+    });
+}
+
+function loadHandler() {
+  loadPopularSearches();
+}
+
+window.addEventListener("load", loadHandler);
