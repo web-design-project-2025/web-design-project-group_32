@@ -1,5 +1,4 @@
-// Burger Menu Toggle
-
+// Burger menu toggle
 const burgerMenu = document.getElementById("burgermenu");
 const mobileMenu = document.getElementById("mobileMenu");
 
@@ -8,7 +7,7 @@ burgerMenu.addEventListener("click", () => {
   mobileMenu.classList.toggle("show");
 });
 
-//Sign In/Out Logic and Corresponding Functional Code
+// Sign in/out logic and corresponding functional code
 
 const signInLink = document.getElementById("sign-in-link");
 const isSignedIn = localStorage.getItem("isSignedIn") === "true";

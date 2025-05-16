@@ -1,5 +1,4 @@
 const submitElement = document.getElementById("sign-in-button");
-
 const inputFields = document.querySelectorAll("#sign-in input");
 const usernameInput = inputFields[0];
 const passwordInput = inputFields[1];
