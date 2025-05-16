@@ -53,13 +53,7 @@ main {
     "img img img img img";
   margin: 1rem 0 4rem 0;
   justify-content: center;
-  gap: 1rem;
-}
-
-.film-poster {
-  width: 8rem;
-  box-shadow: var(--film-poster-box-shadow);
-  border-radius: var(--film-poster-border-radius);
+  gap: 0.8rem;
 }
 
 @media screen and (max-width: 772px) {

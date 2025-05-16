@@ -57,6 +57,7 @@ body {
   grid-template-areas: "img img img img img img img";
   justify-content: center;
   margin-top: 0.8rem;
+  gap: 0.8rem;
 }
 
 /* Popular searches section */
@@ -69,13 +70,7 @@ body {
   grid-template-areas: "img img img img img img img";
   justify-content: center;
   margin: 0 0 2rem 0;
-}
-
-.film-poster {
-  width: 8rem;
-  margin: 0 0.3rem;
-  box-shadow: var(--film-poster-box-shadow);
-  border-radius: var(--film-poster-border-radius);
+  gap: 0.8rem;
 }
 
 /* Media queries */

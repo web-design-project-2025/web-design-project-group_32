@@ -194,6 +194,16 @@ header a {
   }
 }
 
+.film-poster {
+  width: 8rem;
+  box-shadow: var(--film-poster-box-shadow);
+  border-radius: var(--film-poster-border-radius);
+}
+
+.film-poster:hover {
+  transform: scale(1.01);
+}
+
 /* Footer */
 #footer-main-division {
   background-color: var(--footer-bg-color);
