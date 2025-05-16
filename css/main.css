@@ -49,8 +49,7 @@ input {
   font-family: var(--primary-font);
 }
 
-/* header navgation bar form Sean*/
-
+/* Header navgation */
 nav li {
   list-style: none;
   width: 8rem;
@@ -59,7 +58,7 @@ nav li {
   font-size: 1.5rem;
 }
 
-/* underline for button in the header */
+/* Underline for buttons in the header */
 .nav-link {
   border-bottom: 0.15rem solid transparent;
   transform-origin: left;
@@ -146,8 +145,7 @@ header a {
     transition: opacity 0.5 ease, transform 0.5 ease;
   }
 
-  /* When uesr clicked the button menu pop up 
-  and the layout of menu */
+  /* When the button is clicked, the menu pops out */
   .nav-links.show {
     display: flex;
     gap: 10px;
