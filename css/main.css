@@ -121,13 +121,15 @@ header a {
 }
 
 /* If the screen is zoomed out change the menu style */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 820px) {
   .logo img {
     height: 3rem;
   }
+
   header {
     height: 4rem;
   }
+
   /* The nav bar on mobile */
   .nav-links {
     display: none;
@@ -184,9 +186,11 @@ header a {
     position: absolute;
     top: 13px;
   }
+
   .burgermenu.active span:nth-child(2) {
     opacity: 0;
   }
+
   .burgermenu.active span:nth-child(3) {
     transform: rotate(-45deg);
     position: absolute;
