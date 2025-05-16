@@ -56,6 +56,7 @@ main {
   gap: 0.8rem;
 }
 
+/* Media queries */
 @media screen and (max-width: 772px) {
   #films-gallery {
     grid-template-areas: "img img img img";
@@ -95,10 +96,6 @@ main {
     text-align: left;
     min-width: 28rem;
   }
-}
-
-.film-title {
-  max-width: 128px;
 }
 
 @media screen and (max-width: 620px) {

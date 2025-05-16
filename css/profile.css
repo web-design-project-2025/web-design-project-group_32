@@ -114,6 +114,7 @@
   cursor: pointer;
 }
 
+/* Media queries */
 @media screen and (max-width: 1020px) {
   #favorite-film-display {
     grid-template-areas: "img img img img img";
